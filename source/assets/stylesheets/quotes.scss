@@ -1,0 +1,25 @@
+$font-weight-normal: 400;
+
+
+.m-quote--author {
+  font-family: 'Playfair Display',serif;
+  font-style: italic;
+  font-weight: $font-weight-normal ;
+}
+
+.m-quote--title {
+  border-bottom: 2px dotted #FFFFFF;
+  border-top: 2px dotted #FFFFFF;
+  font-family: 'Quando',serif;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1.3em;
+  margin: 10px 0 30px;
+  padding: 20px 0;
+}
+
+.m-quote--links {
+  font-family: 'Signika',sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+}
