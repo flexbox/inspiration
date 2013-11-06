@@ -2,15 +2,15 @@
 title: Chaque jour une nouvelle dose d'inspiration
 ---
 
-h1 Webcitation
-
-.m-quote
-  - data.quotes.each_with_index do |quote, i|
-    p.l-author
-      = quote.author
-    p.l-title
-      = quote.title
-    p.l-links
-      = link_to '@#{quote.twitter', quote.twitter
-    p.l-links
-      = quote.url
+.row
+  .medium-10.medium-centered.columns
+    - data.quotes.each_with_index do |quote, i|
+      .m-quote
+        h2.l-author
+          = quote.author
+        p.l-title
+          = quote.title
+        p.l-links
+          = link_to '@'+quote.twitter, 'http://twitter.com/'+quote.twitter
+        p.l-links
+          = quote.url

@@ -1,6 +1,8 @@
 $font-weight-normal: 400;
 
 .m-quote {
+  margin: 0 0 emCalc(300) 0;
+
   strong {
     color: $white-steroid;
   }
@@ -15,16 +17,24 @@ $font-weight-normal: 400;
     border-bottom: 2px dotted #FFFFFF;
     border-top: 2px dotted #FFFFFF;
     font-family: 'Quando',serif;
-    font-size: 60px;
+    font-size: emCalc(60);
     font-weight: 300;
     line-height: 1.3em;
-    margin: 10px 0 30px;
-    padding: 20px 0;
+    margin: emCalc(10) 0 emCalc(5);
+    padding: emCalc(5) 0;
+    position: relative;
+    &:before {
+      content: "\201C";
+      position: absolute;
+      top: 0;
+      left: -0.5em;
+      color: $white;
+    }
   }
 
   .l-links {
     font-family: 'Signika',sans-serif;
-    font-size: 20px;
+    font-size: emCalc(20);
     line-height: 1.5em;
   }
 }

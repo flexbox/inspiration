@@ -1,6 +1,16 @@
-@import "normalize-css/normalize";
-@import "compass";
+@charset "UTF-8";
 
-@import "colors";
+@import
+  "normalize-css/normalize",
+  "colors",
+  "foundation/settings";
 
-@import "quotes";
+// Foundation Components
+@import
+  "foundation/global",
+  "foundation/grid",
+  "foundation/visibility",
+  "foundation/type";
+
+@import
+  "quotes";
