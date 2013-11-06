@@ -1,5 +1,22 @@
 $yellow : #F9CE34;
 
+
+.blue {
+  background:rgb(90, 198, 255);
+}
+.pink {
+  background:rgb(255, 130, 130);
+}
+.green {
+  background:rgb(160, 236, 111);
+}
+.yellow {
+  background:rgb(253, 235, 117);
+}
+.white {
+  background:rgb(241, 241, 242);
+}
+
 body {
   background-color: $yellow;
 }
