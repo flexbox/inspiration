@@ -9,9 +9,11 @@ title: Chaque jour une nouvelle dose d'inspiration
         h2.l-author
           = quote.author
         p.l-title
-          = quote.title
-        - if quote.twitter.present?
-          p.l-links
-            = link_to '@'+quote.twitter, 'http://twitter.com/'+quote.twitter
-        p.l-links
-          = quote.url
+          = quote.title+'.'
+        ul.inline-list
+          - if quote.twitter.present?
+            li.l-links
+              = link_to '@'+quote.twitter, 'http://twitter.com/'+quote.twitter
+          - if quote.url.present?
+            li.l-links
+              = link_to 'Site web', quote.url

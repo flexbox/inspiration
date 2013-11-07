@@ -1,7 +1,9 @@
 $font-weight-normal: 400;
+$text-shadow : 0 1px 1px rgba($black,.4);
+$quote-border-style : 2px dotted $white-steroid;
 
 .m-quote {
-  margin: 0 0 emCalc(300) 0;
+  margin: emCalc(100) 0 emCalc(300) 0;
 
   strong {
     color: $white-steroid;
@@ -14,8 +16,9 @@ $font-weight-normal: 400;
   }
 
   .l-title {
-    border-bottom: 2px dotted #FFFFFF;
-    border-top: 2px dotted #FFFFFF;
+    text-shadow : $text-shadow;
+    border-bottom: $quote-border-style;
+    border-top: $quote-border-style;
     font-family: 'Quando',serif;
     font-size: emCalc(60);
     font-weight: 300;
@@ -36,5 +39,6 @@ $font-weight-normal: 400;
     font-family: 'Signika',sans-serif;
     font-size: emCalc(20);
     line-height: 1.5em;
+    margin-right: emCalc(20);
   }
 }
