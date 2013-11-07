@@ -1,4 +1,9 @@
 -
+  title: "La vie est assez simple : vous faites des choses. La plupart échouent. Certaines fonctionnent. Vous travaillez plus sur ce qui fonctionne. Si cela fonctionne bien, les autres vous copient rapidement. Puis vous <strong>faites autre chose</strong>. Le truc, c'est de faire autre chose"
+  author: "Lénonard de Vinci"
+  twitter: ""
+  url: ""
+-
   title: "Ce n'est pas de la Direction Artistique, c'est du <strong>bon sens</strong>"
   author: "François vilaire"
   twitter: "cyshini"
@@ -19,13 +24,53 @@
   twitter: ""
   url: ""
 -
+  title: "N'oubliez pas qu'il ya déjà <strong>trop de choses</strong> dehors. Nous n'en avons pas besoin de plus. Nous avons besoin de choses qui <strong>fonctionnent bien</strong>"
+  author: "Aral Balkan"
+  twitter: "aral"
+  url: ""
+-
+  title: "Assurez-vous d'apprendre quelque chose de <strong>nouveau chaque jour</strong>"
+  author: "Anders M. Andersen"
+  twitter: "andmag"
+  url: ""
+-
+  title: "Je pense qu'il y a 3 mots sur le web en ce moment qui demandent du travail pour beaucoups d'entre nous : Responsive, Web, Design"
+  author: "Ethan Marcotte"
+  twitter: ""
+  url: "http://ethanmarcotte.com/"
+-
   title: "Rien n'est terminé tant que le produit n'est pas dans les cartons"
   author: "Steeve jobs"
   twitter: ""
   url: ""
 -
+  title: "Il vaut mieux faire quelque chose et se planter plutôt que de ne rien faire"
+  author: "La voix du hacker"
+  twitter: ""
+  url: ""
+-
   title: "Le voyage est la récompense"
   author: "Steeve jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Ne codez pas votre CSS pour la page. <strong>Coder pour le système</strong>"
+  author: "Jonathan Snook"
+  twitter: "snookca"
+  url: "https://speakerdeck.com/u/snookca/p/your"
+-
+  title: "Dépanne le PC d'un n00b et il sera bien content aujourd'hui. Apprends-lui à le réparer lui-même et il ne te fera plus jamais chier"
+  author: "Ra's al Ghul"
+  twitter: ""
+  url: ""
+-
+  title: "Lorsque nous concevons pour l'avenir, en fait, nous concevons l'avenir"
+  author: "Carl Smith"
+  twitter: ""
+  url: ""
+-
+  title: "Ne perdez pas vos ressources sur la conception d'une belle interface pour un contenu médiocre. Développez votre énergie pour refaire votre contenu à la place"
+  author: "Christian Holst"
   twitter: ""
   url: ""
 -
