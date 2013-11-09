@@ -1,1 +1,1 @@
-#= require_self
+#= require random
