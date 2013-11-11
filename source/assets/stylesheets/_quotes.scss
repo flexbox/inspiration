@@ -2,8 +2,14 @@ $font-weight-normal: 400;
 $text-shadow : 0 1px 1px rgba($black,.4);
 $quote-border-style : 2px dotted $white-steroid;
 
+$quote-title-font-size: emCalc(60);
+
+body {
+  font-family: 'Signika',sans-serif;
+}
+
 .m-quote {
-  margin: emCalc(100) 0 emCalc(300) 0;
+  margin: emCalc(100) 0 emCalc(200) 0;
 
   strong {
     color: $white-steroid;
@@ -20,12 +26,18 @@ $quote-border-style : 2px dotted $white-steroid;
     border-bottom: $quote-border-style;
     border-top: $quote-border-style;
     font-family: 'Quando',serif;
-    font-size: emCalc(60);
+
     font-weight: 300;
     line-height: 1.3em;
     margin: emCalc(10) 0 emCalc(5);
     padding: emCalc(5) 0;
     position: relative;
+
+    font-size: $quote-title-font-size - emCalc(30);
+    @media #{$small} {
+      font-size: $quote-title-font-size;
+    }
+
     &:before {
       content: "\201C";
       position: absolute;

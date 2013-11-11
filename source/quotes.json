@@ -66,7 +66,7 @@
     "url" : ""
   },
   {
-    "title" : "Ne codez pas votre CSS pour la page. <strong>Coder pour le système</strong>",
+    "title" : "Ne codez pas votre CSS pour la page. <strong>Codez pour le système</strong>",
     "author" : "Jonathan Snook",
     "twitter" : "snookca",
     "url" : "https://speakerdeck.com/u/snookca/p/your"
@@ -108,8 +108,50 @@
     "url" : ""
   },
   {
-    "title" : "Il est vraiment difficile de concevoir des produits par groupes de discussion. La plupart du temps, les gens ne savent pas ce qu'ils veulent jusqu'à ce que vous le leur montriez",
-    "author" : "Steeve jobs",
+    "title" : "Photoshop n'est pas un moyen efficace de présenter un design web",
+    "author" : "Pete Miller",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Ne pas planifiez pas l'avenir par le passé",
+    "author" : "Kim dotcom",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Concevoir pour le web, c'est comme visualiser un tesseract. Nous construisons des expériences en manipulant leurs ombres",
+    "author" : "Tim Brown",
+    "twitter" : "tceb62",
+    "url" : "http://fr.wikipedia.org/wiki/Tesseract"
+  },
+  {
+    "title" : "Le secret dans la construction de larges applications est  de ne <strong>jamais</strong> construire de larges applications. Eclatez votre application en <strong>petits morceaux</strong>. Ensuite, assemblez ces composants testés, et vérifiés dans votre grande application",
+    "author" : "Justin Meyer &bull; JavascriptMVC",
+    "twitter" : "justinbmeyer",
+    "url" : ""
+  },
+  {
+    "title" : "Commencez par le petit écran, puis augmentez la taille jusqu'à ce ça ne ressemble plus à rien. Il est temps de placer votre breakpoint !",
+    "author" : "Stephen Hay",
+    "twitter" : "stephenhay",
+    "url" : ""
+  },
+  {
+    "title" : "La façon dont les Media Queries CSS sont présentées pour règler les problèmes sur les mobiles, donne aux développeurs une fausse promesse d'une solution simple pour la conception adaptative",
+    "author" : "Jason Grigsby",
+    "twitter" : "grigs",
+    "url" : ""
+  },
+  {
+    "title" : "C'est incroyable de voir combien vous pouvez faire en un jour, simplement si vous restez assis et que vous le faites.",
+    "author" : "Le père de Bill Tregle",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Je ne suis pas plus intelligent, je reste sur un problème plus longtemps",
+    "author" : "Albert Einstein",
     "twitter" : "",
     "url" : ""
   },
@@ -118,6 +160,36 @@
     "author" : "Probablement moi",
     "twitter" : "_flexbox",
     "url" : "http://davidleuliette.com"
+  },
+  {
+    "title" : "Quand le seul outil dont vous disposez est un marteau, tout ressemble à un clou",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
+    "title" : "Comic Sans, c'est un peu la démonstration typographique de la médiocrité victorieuse",
+    "author" : "Tristan Nitot",
+    "twitter" : "nitot",
+    "url" : ""
+  },
+  {
+    "title" : "Vous récoltez ce que vous semez",
+    "author" : "Jon Hicks",
+    "twitter" : "",
+    "url" : "http://www.hicksdesign.co.uk/"
+  },
+  {
+    "title" : "La programmation est une course entre les développeurs tâchant de concevoir des programmes de plus en plus nombreux et efficaces, accessibles même aux imbéciles, et l’univers essayant de produire des idiots de plus en plus nombreux et efficaces. Jusqu’à présent, c’est l’univers qui gagne",
+    "author" : "Les Geeks, la BD",
+    "twitter" : "",
+    "url" : "http://www.lesgeeks.net"
+  },
+  {
+    "title" : "Il est beaucoup plus intéressant de discuter de la façon de résoudre les problèmes plutôt que de les signaler",
+    "author" : "Patrick B. Gibson",
+    "twitter" : "patr1ck",
+    "url" : ""
   },
   {
     "title" : "En 2013 l'humanité crée 5 hexabytes de données en 10 minutes",

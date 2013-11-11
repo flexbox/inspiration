@@ -16,10 +16,10 @@ html
 
   body class='#{page_classes}'
 
-    = partial "views/header"
-
-    = yield
-
+    #m-page-container
+      = partial "views/header"
+      = yield
+    = partial "views/footer"
 
     a href="#{data.settings.social.google_plus}?rel=author" class="hide"
       'Google

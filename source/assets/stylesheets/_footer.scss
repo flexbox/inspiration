@@ -1,0 +1,13 @@
+.m-footer {
+  background-color: $black;
+  font-family: 'Quando',serif;
+  padding: emCalc(20) 0 0;
+  color: $white-steroid;
+
+  a {
+  color: $yellow;
+    &:hover {
+      color: $yellow-steroid;
+    }
+  }
+}
