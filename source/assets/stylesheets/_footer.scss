@@ -1,3 +1,20 @@
+$footer-height : 140px;
+
+html, body {
+  height: 100%;
+}
+.m-page-container {
+  min-height: 100%;
+  margin-bottom: -$footer-height;
+}
+.m-page-container:after {
+  content: "";
+  display: block;
+}
+.m-footer, .m-page-container:after {
+  min-height: $footer-height;
+}
+
 .m-footer {
   background-color: $black;
   font-family: 'Quando',serif;
@@ -5,9 +22,9 @@
   color: $white-steroid;
 
   a {
-  color: $yellow;
+  color: $yellow-steroid;
     &:hover {
-      color: $yellow-steroid;
+      color: $red-steroid;
     }
   }
 }

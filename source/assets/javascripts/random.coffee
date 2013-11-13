@@ -1,4 +1,10 @@
-$(document).ready ->
+burnOldQuote = ->
+  $("#js-author").html ''
+  $("#js-title").html ''
+  $("#js-twitter").html ''
+  $("#js-url").html ''
+
+getMyQuote = ->
   $.get "quotes.json", (data) ->
     quotes = data
     random = Math.floor(Math.random() * quotes.length)
@@ -12,3 +18,10 @@ $(document).ready ->
       url = "<a href=\"" + citation.url + "\">Site internet</a>"
       $("#js-url").append url
     $("#js-content").fadeIn()
+
+
+$(document).ready ->
+  getMyQuote()
+  $('.js-get-lucky').click ->
+    burnOldQuote()
+    getMyQuote()

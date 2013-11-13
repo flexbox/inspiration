@@ -167,6 +167,7 @@ $experimental: true !default;
     cursor: $cursor-default-value;
   }
 
+  a { @include single-transition(); }
   a:hover { cursor: $cursor-pointer-value; }
 
   // Override outline from normalize, we don't like it

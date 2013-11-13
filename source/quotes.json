@@ -1,132 +1,144 @@
 [
   {
-    "title" : "La vie est assez simple : vous faites des choses. La plupart échouent. Certaines fonctionnent. Vous travaillez plus sur ce qui fonctionne. Si cela fonctionne bien, les autres vous copient rapidement. Puis vous <strong>faites autre chose</strong>. Le truc, c'est de faire autre chose",
+    "title" : "La vie est assez simple : vous faites des choses. La plupart échouent. Certaines fonctionnent. Vous travaillez plus sur ce qui fonctionne. Si cela fonctionne bien, les autres vous copient rapidement. Puis vous <strong>faites autre chose</strong>. Le truc, c'est de faire autre chose.",
     "author" : "Lénonard de Vinci",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Ce n'est pas de la Direction Artistique, c'est du <strong>bon sens</strong>",
+    "title" : "Ce n'est pas de la Direction Artistique, c'est du <strong>bon sens</strong>.",
     "author" : "François vilaire",
     "twitter" : "cyshini",
     "url" : ""
   },
   {
-    "title" : "Être designer web et ne pas considérer la <strong>performance</strong>, c'est comme être graphiste print et ne pas considérer la façon dont les couleurs seront imprimées",
+    "title" : "Être designer web et ne pas considérer la <strong>performance</strong>, c'est comme être graphiste print et ne pas considérer la façon dont les couleurs seront imprimées.",
     "author" : "Luke Wroblewski",
     "twitter" : "lukew",
     "url" : ""
   },
   {
-    "title" : "Nous devons faire que chaque idée implémentée soit disponible sur le plus petit dénominateur commun technologique",
+    "title" : "Contenu en haut de page, contrôles en bas.",
+    "author" : "Luke Wroblewski",
+    "twitter" : "lukew",
+    "url" : ""
+  },
+  {
+    "title" : "En 2009, la taille moyenne d'un site Web était 320kb. Aujourd'hui, en 2013, elle est de 1.4MB. En un peu plus de deux ans, nous avons triplé la taille. La loi de Moore n'a pas suivi le rythme de la bande passante.",
+    "author" : "Luke Wroblewski",
+    "twitter" : "lukew",
+    "url" : ""
+  },
+  {
+    "title" : "Nous devons faire que chaque idée implémentée soit disponible sur le plus petit dénominateur commun technologique.",
     "author" : "Jeff zeen &bull; Typekit",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Refuser tout compromis",
+    "title" : "Refuser tout compromis.",
     "author" : "Steeve jobs",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "N'oubliez pas qu'il ya déjà <strong>trop de choses</strong> dehors. Nous n'en avons pas besoin de plus. Nous avons besoin de choses qui <strong>fonctionnent bien</strong>",
+    "title" : "N'oubliez pas qu'il ya déjà <strong>trop de choses</strong> dehors. Nous n'en avons pas besoin de plus. Nous avons besoin de choses qui <strong>fonctionnent bien</strong>.",
     "author" : "Aral Balkan",
     "twitter" : "aral",
     "url" : ""
   },
   {
-    "title" : "Assurez-vous d'apprendre quelque chose de <strong>nouveau chaque jour</strong>",
+    "title" : "Assurez-vous d'apprendre quelque chose de <strong>nouveau chaque jour</strong>.",
     "author" : "Anders M. Andersen",
     "twitter" : "andmag",
     "url" : ""
   },
   {
-    "title" : "Je pense qu'il y a 3 mots sur le web en ce moment qui demandent du travail pour beaucoups d'entre nous : Responsive, Web, Design",
+    "title" : "Je pense qu'il y a 3 mots sur le web en ce moment qui demandent du travail pour beaucoups d'entre nous : <strong>Responsive</strong>, <strong>Web</strong>, <strong>Design</strong>.",
     "author" : "Ethan Marcotte",
     "twitter" : "",
     "url" : "http://ethanmarcotte.com/"
   },
   {
-    "title" : "Rien n'est terminé tant que le produit n'est pas dans les cartons",
+    "title" : "Rien n'est terminé tant que le produit n'est pas dans les cartons.",
     "author" : "Steeve jobs",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Il vaut mieux faire quelque chose et se planter plutôt que de ne rien faire",
+    "title" : "Il vaut mieux faire quelque chose et se planter plutôt que de ne rien faire.",
     "author" : "La voix du hacker",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Le voyage est la récompense",
+    "title" : "Le voyage est la récompense.",
     "author" : "Steeve jobs",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Ne codez pas votre CSS pour la page. <strong>Codez pour le système</strong>",
+    "title" : "Ne codez pas votre CSS pour la page. <strong>Codez pour le système</strong>.",
     "author" : "Jonathan Snook",
     "twitter" : "snookca",
     "url" : "https://speakerdeck.com/u/snookca/p/your"
   },
   {
-    "title" : "Dépanne le PC d'un n00b et il sera bien content aujourd'hui. Apprends-lui à le réparer lui-même et il ne te fera plus jamais chier",
+    "title" : "Dépanne le PC d'un n00b et il sera bien content aujourd'hui. Apprends-lui à le réparer lui-même et il ne te fera plus jamais chier.",
     "author" : "Ra's al Ghul",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Lorsque nous concevons pour l'avenir, en fait, nous concevons l'avenir",
+    "title" : "Lorsque nous concevons pour l'avenir, en fait, nous concevons l'avenir.",
     "author" : "Carl Smith",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Ne perdez pas vos ressources sur la conception d'une belle interface pour un contenu médiocre. Développez votre énergie pour refaire votre contenu à la place",
+    "title" : "Ne perdez pas votre temps sur la conception d'une belle interface pour un contenu médiocre. Développez votre énergie pour refaire votre contenu à la place.",
     "author" : "Christian Holst",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Les vrais artistes terminent leurs oeuvres",
+    "title" : "Les vrais artistes terminent leurs oeuvres.",
     "author" : "Steeve jobs",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Mieux vaut être pirate que de rejoindre la marine",
+    "title" : "Mieux vaut être pirate que de rejoindre la marine.",
     "author" : "Steeve jobs",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Le PC est un camion",
+    "title" : "Le PC est un camion.",
     "author" : "Steeve jobs",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Photoshop n'est pas un moyen efficace de présenter un design web",
+    "title" : "Photoshop n'est pas un moyen efficace de présenter un design web.",
     "author" : "Pete Miller",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Ne pas planifiez pas l'avenir par le passé",
+    "title" : "Ne pas planifiez pas l'avenir par le passé.",
     "author" : "Kim dotcom",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Concevoir pour le web, c'est comme visualiser un tesseract. Nous construisons des expériences en manipulant leurs ombres",
+    "title" : "Concevoir pour le web, c'est comme visualiser un <strong>tesseract</strong>. Nous construisons des expériences en manipulant leurs ombres.",
     "author" : "Tim Brown",
     "twitter" : "tceb62",
     "url" : "http://fr.wikipedia.org/wiki/Tesseract"
   },
   {
-    "title" : "Le secret dans la construction de larges applications est  de ne <strong>jamais</strong> construire de larges applications. Eclatez votre application en <strong>petits morceaux</strong>. Ensuite, assemblez ces composants testés, et vérifiés dans votre grande application",
+    "title" : "Le secret dans la construction de larges applications est  de ne <strong>jamais</strong> construire de larges applications. Eclatez votre application en <strong>petits morceaux</strong>. Ensuite, assemblez ces composants testés, et vérifiés dans votre grande application.",
     "author" : "Justin Meyer &bull; JavascriptMVC",
     "twitter" : "justinbmeyer",
     "url" : ""
@@ -138,73 +150,85 @@
     "url" : ""
   },
   {
-    "title" : "La façon dont les Media Queries CSS sont présentées pour règler les problèmes sur les mobiles, donne aux développeurs une fausse promesse d'une solution simple pour la conception adaptative",
+    "title" : "La façon dont les Media Queries CSS sont présentées pour règler les problèmes sur les mobiles, donne aux développeurs la fausse promesse d'une solution simple pour la conception adaptative.",
     "author" : "Jason Grigsby",
     "twitter" : "grigs",
     "url" : ""
   },
   {
-    "title" : "C'est incroyable de voir combien vous pouvez faire en un jour, simplement si vous restez assis et que vous le faites.",
+    "title" : "C'est incroyable de voir combien vous pouvez faire en une journée, simplement si vous restez assis et que vous le faites.",
     "author" : "Le père de Bill Tregle",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Je ne suis pas plus intelligent, je reste sur un problème plus longtemps",
+    "title" : "Je ne suis pas plus intelligent, je reste sur un problème plus longtemps.",
     "author" : "Albert Einstein",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "En France, il y a confusion : Webdesigner = Graphiste <strong>magicien de l’internet</strong>",
+    "title" : "Je n'ai pas de talents particuliers, je suis simplement très curieux.",
+    "author" : "Albert Einstein",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Le monde ne sera pas détruit par ceux qui font le mal, mais par ceux qui les regardent sans rien faire.",
+    "author" : "Albert Einstein",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "En France, il y a confusion : Webdesigner = Graphiste <strong>magicien de l’internet</strong>.",
     "author" : "Probablement moi",
     "twitter" : "_flexbox",
     "url" : "http://davidleuliette.com"
   },
   {
-    "title" : "Quand le seul outil dont vous disposez est un marteau, tout ressemble à un clou",
+    "title" : "Quand le seul outil dont vous disposez est un marteau, tout ressemble à un clou.",
     "author" : "Probablement moi",
     "twitter" : "_flexbox",
     "url" : "http://davidleuliette.com"
   },
   {
-    "title" : "Comic Sans, c'est un peu la démonstration typographique de la médiocrité victorieuse",
+    "title" : "Comic Sans, c'est un peu la démonstration typographique de la médiocrité victorieuse.",
     "author" : "Tristan Nitot",
     "twitter" : "nitot",
     "url" : ""
   },
   {
-    "title" : "Vous récoltez ce que vous semez",
+    "title" : "Vous récoltez ce que vous semez.",
     "author" : "Jon Hicks",
     "twitter" : "",
     "url" : "http://www.hicksdesign.co.uk/"
   },
   {
-    "title" : "La programmation est une course entre les développeurs tâchant de concevoir des programmes de plus en plus nombreux et efficaces, accessibles même aux imbéciles, et l’univers essayant de produire des idiots de plus en plus nombreux et efficaces. Jusqu’à présent, c’est l’univers qui gagne",
+    "title" : "La programmation est une course entre les développeurs tâchant de concevoir des programmes de plus en plus nombreux et efficaces, accessibles même aux imbéciles, et l’univers essayant de produire des idiots de plus en plus nombreux et efficaces. Jusqu’à présent, c’est l’univers qui gagne.",
     "author" : "Les Geeks, la BD",
     "twitter" : "",
     "url" : "http://www.lesgeeks.net"
   },
   {
-    "title" : "Il est beaucoup plus intéressant de discuter de la façon de résoudre les problèmes plutôt que de les signaler",
+    "title" : "Il est beaucoup plus intéressant de discuter de la façon de <strong>résoudre les problèmes</strong> plutôt que de les signaler.",
     "author" : "Patrick B. Gibson",
     "twitter" : "patr1ck",
     "url" : ""
   },
   {
-    "title" : "En 2013 l'humanité crée 5 hexabytes de données en 10 minutes",
+    "title" : "En 2013 l'humanité crée 5 hexabytes de données en 10 minutes.",
     "author" : "Peter Diamandis &bull; co-fondateur université de la singularité",
     "twitter" : "PeterDiamandis",
     "url" : ""
   },
   {
-    "title" : "Les grands artistes volent",
+    "title" : "Les grands artistes volent.",
     "author" : "Pablo picasso",
     "twitter" : "",
     "url" : ""
   },
   {
-    "title" : "Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d'atteindre un objectif particulier",
+    "title" : "Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d'atteindre un objectif particulier.",
     "author" : "Charles Eames",
     "twitter" : "",
     "url": ""

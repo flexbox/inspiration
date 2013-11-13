@@ -9,7 +9,7 @@ body {
 }
 
 .m-quote {
-  margin: emCalc(100) 0 emCalc(200) 0;
+  margin: emCalc(100) 0 emCalc(150) 0;
 
   strong {
     color: $white-steroid;
@@ -53,4 +53,8 @@ body {
     line-height: 1.5em;
     margin-right: emCalc(20);
   }
+}
+
+.js-get-lucky {
+  margin-bottom: emCalc(150);
 }

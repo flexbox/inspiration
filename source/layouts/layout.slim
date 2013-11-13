@@ -8,17 +8,16 @@ html
     title #{data.project.title} &bull; #{current_page.data.title}
     meta name="description" content="#{data.project.description}"
 
-    link rel="shortcut icon" href="#{image_path('favicon.ico')}" type="image/x-icon"
-
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Playfair+Display:400italic|Signika|Quando'
     = stylesheet_link_tag 'application'
     = partial 'views/analytics_code'
 
   body class='#{page_classes}'
 
-    #m-page-container
+    .m-page-container
       = partial "views/header"
       = yield
+      = partial "views/get_lucky"
     = partial "views/footer"
 
     a href="#{data.settings.social.google_plus}?rel=author" class="hide"

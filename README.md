@@ -15,10 +15,6 @@ Handcrafted with [Middleman](http://middlemanapp.com) & slimmer template.
 - [Compass](http://compass-style.org) *[sass helpers/mixins]*
 - [GitHub Pages](http://pages.github.com) *[deployment/hosting]*
 
-###### Other
-- [SublimeText](http://www.sublimetext.com) *[basic project file]*
-
-
 ## Getting Started
 
 1. Install Middleman
