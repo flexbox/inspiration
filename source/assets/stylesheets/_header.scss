@@ -1,4 +1,10 @@
 .m-header {
+  font-size: emCalc(12);
+
+  @media #{$small} {
+    font-size: inherit;
+  }
+
   background-color: $black;
   font-family: 'Quando',serif;
   padding: emCalc(20) 0;

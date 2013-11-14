@@ -173,7 +173,23 @@ $button-disabled-opacity: 0.6 !default;
     @include button-size;
     @include button-style;
 
-    &.secondary { @include button-style($bg:$secondary-color); }
+    &.secondary {
+      @include button-style($bg:$secondary-color);
+      font-size: emCalc(20);
+
+      border-color: rgba($black, 0.2);
+      border-style: none none solid;
+      border-width: medium medium 3px;
+
+      &:hover {
+        background-color: $white;
+      }
+
+      &:focus, &:active {
+        border-color: $yellow;
+        border-style: solid none none;
+        border-width: 2px medium medium;      }
+    }
     &.success   { @include button-style($bg:$success-color); }
     &.alert     { @include button-style($bg:$alert-color); }
 

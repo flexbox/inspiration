@@ -24,7 +24,7 @@
     "url" : ""
   },
   {
-    "title" : "En 2009, la taille moyenne d'un site Web était 320kb. Aujourd'hui, en 2013, elle est de 1.4MB. En un peu plus de deux ans, nous avons triplé la taille. La loi de Moore n'a pas suivi le rythme de la bande passante.",
+    "title" : "En 2009, la taille moyenne d'un site Web était 320kb. Aujourd'hui, en 2013, elle est de 1.4MB. En un peu plus de deux ans, nous avons <strong>triplé la taille</strong>. La loi de Moore n'a pas suivi le rythme de la bande passante.",
     "author" : "Luke Wroblewski",
     "twitter" : "lukew",
     "url" : ""
@@ -42,7 +42,19 @@
     "url" : ""
   },
   {
+    "title" : "Il est vraiment difficile de concevoir des produits par groupes de discussion. La plupart du temps, les gens ne <strong>savent pas ce qu'ils veulent</strong> jusqu'à ce que vous le leur montriez.",
+    "author" : "Steeve jobs",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
     "title" : "N'oubliez pas qu'il ya déjà <strong>trop de choses</strong> dehors. Nous n'en avons pas besoin de plus. Nous avons besoin de choses qui <strong>fonctionnent bien</strong>.",
+    "author" : "Aral Balkan",
+    "twitter" : "aral",
+    "url" : ""
+  },
+  {
+    "title" : "Un webdesigner est un concepteur d'<strong>expérience utilisateur</strong>.",
     "author" : "Aral Balkan",
     "twitter" : "aral",
     "url" : ""
@@ -186,7 +198,19 @@
     "url" : "http://davidleuliette.com"
   },
   {
+    "title" : "La compétence vient avec la passion.",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
     "title" : "Quand le seul outil dont vous disposez est un marteau, tout ressemble à un clou.",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
+    "title" : "Toute révolution technologique exige un niveau de plomberie (ou infrastructure).",
     "author" : "Probablement moi",
     "twitter" : "_flexbox",
     "url" : "http://davidleuliette.com"
@@ -216,7 +240,7 @@
     "url" : ""
   },
   {
-    "title" : "En 2013 l'humanité crée 5 hexabytes de données en 10 minutes.",
+    "title" : "En 2013 l'humanité crée 5 hexabytes de données en <strong>10 minutes</strong>.",
     "author" : "Peter Diamandis &bull; co-fondateur université de la singularité",
     "twitter" : "PeterDiamandis",
     "url" : ""
@@ -226,6 +250,48 @@
     "author" : "Pablo picasso",
     "twitter" : "",
     "url" : ""
+  },
+  {
+    "title" : "Les sites web sont comme des livres de jeux.",
+    "author" : "Denise Jacobs",
+    "twitter" : "denisejacobs",
+    "url" : ""
+  },
+  {
+    "title" : "L'histoire précède la conception. La conception en <strong>l'abscence d'histoire n'est pas du design</strong>. C'est de la décoration.",
+    "author" : "Jeffrey Zeldman",
+    "twitter" : "",
+    "url" : "http://Smashed.by/decoration"
+  },
+  {
+    "title" : "Sur le web, la principale astuce pour <strong>développer du code</strong> qui est concis, stable, efficace et facile à maintenir, c'est la séparation et la délégation.",
+    "author" : "Christian Heilmann",
+    "twitter" : "codepo8‎",
+    "url" : ""
+  },
+  {
+    "title" : "Peu connaissances est une chose dangereuse.",
+    "author" : "Alexander Pope",
+    "twitter" : "",
+    "url" : "http://fr.wikipedia.org/wiki/Alexander_Pope"
+  },
+  {
+    "title" : "Les webdesigners sont des conteurs.",
+    "author" : "Francisco Inchauste",
+    "twitter" : "",
+    "url" : "http://www.getfinch.com/about/"
+  },
+  {
+    "title" : "Si votre nouveau site était une personne célèbre, qui serait-il ?",
+    "author" : "Paul boag",
+    "twitter" : "",
+    "url" : "http://boagworld.com/"
+  },
+  {
+    "title" : "Publiez ce que vous apprenez.",
+    "author" : "Paul Irish",
+    "twitter" : "paul_irish",
+    "url" : "http://www.paulirish.com/"
   },
   {
     "title" : "Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d'atteindre un objectif particulier.",
