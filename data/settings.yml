@@ -2,7 +2,7 @@ site:
   title: Webcitation
   description: Chaque jour une nouvelle citation d'humain qui travaille dans l'industrie du web
   url: 'http://webcitation.fr'
-  logo: 'http://webcitation.fr/favicon_base.png'
+  logo: 'http://webcitation.fr/apple-touch-icon-144x144-precomposed.png'
 social:
   google_plus: 'https://plus.google.com/u/0/113401424510170217860'
   twitter: 'https://twitter.com/_flexbox'
