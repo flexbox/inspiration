@@ -7,6 +7,7 @@ html
 
     title #{data.project.title} &bull; #{current_page.data.title}
     meta name="description" content="#{data.project.description}"
+    meta name="robots" content="index,follow"
 
     = partial 'views/favicon'
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Playfair+Display:400italic|Signika|Quando'
@@ -14,7 +15,6 @@ html
     = partial 'views/analytics_code'
 
   body class='#{page_classes}'
-
     .m-page-container
       = partial "views/header"
       = yield
