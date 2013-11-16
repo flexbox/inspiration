@@ -1,6 +1,6 @@
 footer.m-footer
   .row
-    .medium-12.columns
+    .small-12.columns
       p
         'Ce site est rédigé et administré par
         = link_to(' David Leuliette', 'http://davidleuliette.com/')
@@ -13,3 +13,8 @@ footer.m-footer
         'pour le système de grille et
         = link_to('github ', 'https://github.com/flexbox/webcitation')
         'pour l'hébergement.
+      p.text-center
+        small
+          'Contribuer avec des micro dons
+      = link_to "https://flattr.com/submit/auto?user_id=#{data.settings.social.flattr}&url=#{data.settings.site.url}", target: '_blank', class: 'm-flattr' do
+        = image_tag '//api.flattr.com/button/flattr-badge-large.png', alt: 'Aidez moi à developper ce site', title: 'Aidez moi à developper ce site'

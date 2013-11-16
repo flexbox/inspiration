@@ -192,7 +192,31 @@
     "url" : ""
   },
   {
+    "title" : "La chose la plus dangereuse n'est pas que les machines pourraient commencer à penser comme des humains, mais que les humains pourraient commencer à penser comme des machines.",
+    "author" : "Sydney J Harris",
+    "twitter" : "",
+    "url" : "http://en.wikipedia.org/wiki/Sydney_J._Harris"
+  },
+  {
     "title" : "En France, il y a confusion : Webdesigner = Graphiste <strong>magicien de l’internet</strong>.",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
+    "title" : "Un bon designer ne doit pas seulement faire de belles choses, ses conceptions doivent êtres utiles aux utilisateurs.",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
+    "title" : "Chaque site internet est un document vivant.",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
+    "title" : "Si vous ne faites pas ce que vous aimez, alors vous perdez votre temps.",
     "author" : "Probablement moi",
     "twitter" : "_flexbox",
     "url" : "http://davidleuliette.com"
@@ -210,7 +234,7 @@
     "url" : "http://davidleuliette.com"
   },
   {
-    "title" : "Toute révolution technologique exige un niveau de plomberie (ou infrastructure).",
+    "title" : "Toute révolution technologique exige un niveau de plomberie (autrement dit d'infrastructure).",
     "author" : "Probablement moi",
     "twitter" : "_flexbox",
     "url" : "http://davidleuliette.com"
@@ -292,6 +316,42 @@
     "author" : "Paul Irish",
     "twitter" : "paul_irish",
     "url" : "http://www.paulirish.com/"
+  },
+  {
+    "title" : "Le but n'est pas de concevoir pour la technologie d'écran, mais plutôt de concevoir une <strong>expérience holistique positive</strong>.",
+    "author" : "Jason Santa Maria",
+    "twitter" : "jasonsantamaria",
+    "url" : "http://fr.wikipedia.org/wiki/Holisme"
+  },
+  {
+    "title" : "C'est difficile à expliquer avec des mots, nous allons l'expliquer avec du code.",
+    "author" : "Lea Verou",
+    "twitter" : "LeaVerou‎",
+    "url" : "http://lea.verou.me/"
+  },
+  {
+    "title" : "Nous avons besoin d'un <strong>standard d'icône pour afficher le contenu</strong> en design responsive.",
+    "author" : "Andy Clarke",
+    "twitter" : "",
+    "url" : "http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/ "
+  },
+  {
+    "title" : "On parle pas à une brouette, on la pousse :)",
+    "author" : "Nicolas Froidure",
+    "twitter" : "nfroidure",
+    "url" : "http://insertafter.com"
+  },
+  {
+    "title" : "Il est important de s'assurer que nous atteignons tous nos objectifs en matière de contenu, <strong>avant</strong> de commencer à plonger dans les détails de design",
+    "author" : "Meagan Fisher",
+    "twitter" : "owltastic",
+    "url" : ""
+  },
+  {
+    "title" : "Quand il s'agit de naviguer sur le web, être rapide, c'est mieux.",
+    "author" : "Joseph Scott",
+    "twitter" : "",
+    "url" : "http://josephscott.org/archives/2011/09/slides-site-performance-from-pinto-to-ferrari/"
   },
   {
     "title" : "Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d'atteindre un objectif particulier.",
