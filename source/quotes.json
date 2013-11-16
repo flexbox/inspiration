@@ -276,6 +276,12 @@
     "url" : ""
   },
   {
+    "title" : "Le code est de la poésie.",
+    "author" : "Codex Wordpress",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
     "title" : "Les sites web sont comme des livres de jeux.",
     "author" : "Denise Jacobs",
     "twitter" : "denisejacobs",
@@ -336,10 +342,10 @@
     "url" : "http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/ "
   },
   {
-    "title" : "On parle pas à une brouette, on la pousse :)",
-    "author" : "Nicolas Froidure",
-    "twitter" : "nfroidure",
-    "url" : "http://insertafter.com"
+    "title" : "On parle pas à une brouette, on la pousse",
+    "author" : "La Sagesse Populaire",
+    "twitter" : "",
+    "url" : "http://www.insertafter.com/articles-capskiller_stop_aux_majuscules.html"
   },
   {
     "title" : "Il est important de s'assurer que nous atteignons tous nos objectifs en matière de contenu, <strong>avant</strong> de commencer à plonger dans les détails de design",
@@ -352,6 +358,24 @@
     "author" : "Joseph Scott",
     "twitter" : "",
     "url" : "http://josephscott.org/archives/2011/09/slides-site-performance-from-pinto-to-ferrari/"
+  },
+  {
+    "title" : "Aujourd'hui Tous les navigateur sur le marché ont <strong>une taille</strong> de police <strong>par défaut de 16 pixels</strong>.<br>...<br>Voila. C'est dit",
+    "author" : "Craig sharkie",
+    "twitter" : "twalve",
+    "url" : ""
+  },
+  {
+    "title" : "Charger les boutons sociaux Google+, Facebook et Twitter totalise 19 requêtes serveur et prend 246.7ko en bande passante.",
+    "author" : "Zurb",
+    "twitter" : "",
+    "url" : "http://zurb.com/article/883/small-painful-buttons-why-social-media-bu"
+  },
+  {
+    "title" : "Les mediaqueries peuvent être utilisées pour faire plus que hacker des mises en page cassées : avec une bonne planification, nous pouvons commencer à chorégraphier notre contenu proportionnellement à la taille d'écran, au service de la meilleure expérience possible à n'importe quelle largeur.",
+    "author" : "Trent Walton",
+    "twitter" : "",
+    "url" : ""
   },
   {
     "title" : "Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d'atteindre un objectif particulier.",
