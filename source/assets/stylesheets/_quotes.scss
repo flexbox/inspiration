@@ -45,6 +45,13 @@ body {
       left: -0.5em;
       color: $white;
     }
+    &:after {
+      content: "\201D";
+      position: absolute;
+      bottom: -0.5em;
+      right: -0.5em;
+      color: $white;
+    }
   }
 
   .l-links {
