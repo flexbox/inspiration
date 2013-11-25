@@ -240,6 +240,12 @@
     "url" : "http://davidleuliette.com"
   },
   {
+    "title" : "Il n'y a pas de plus beau cadeau que la connaissance.",
+    "author" : "Probablement moi",
+    "twitter" : "_flexbox",
+    "url" : "http://davidleuliette.com"
+  },
+  {
     "title" : "Comic Sans, c'est un peu la démonstration typographique de la médiocrité victorieuse.",
     "author" : "Tristan Nitot",
     "twitter" : "nitot",
@@ -374,6 +380,60 @@
   {
     "title" : "Les mediaqueries peuvent être utilisées pour faire plus que hacker des mises en page cassées : avec une bonne planification, nous pouvons commencer à chorégraphier notre contenu proportionnellement à la taille d'écran, au service de la meilleure expérience possible à n'importe quelle largeur.",
     "author" : "Trent Walton",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Un bon design est celui que vous ne remarquez même pas.",
+    "author" : "Geoffrey Dorne",
+    "twitter" : "@GeoffreyDorne",
+    "url" : ""
+  },
+  {
+    "title" : "Au début, les utilisateurs font confiance et aiment les belles interfaces.<br> En fin de compte, ils font confiance et aiment <strong>les interfaces qui fonctionnent bien</strong>.",
+    "author" : "Marc Hassenzahl",
+    "twitter" : "",
+    "url" : "http://hassenzahl.wordpress.com/"
+  },
+  {
+    "title" : "Un rythme modulaire, comme un <strong>rythme musical</strong>, est un ensemble organisé de <strong>proportions harmonieuses</strong>.",
+    "author" : "Robert Bringhurst",
+    "twitter" : "",
+    "url" : "http://en.wikipedia.org/wiki/Robert_Bringhurst"
+  },
+  {
+    "title" : "Github est devenu une sorte de grand World of Warcraft pour développeurs ?",
+    "author" : "Linus torvalds ?",
+    "twitter" : "",
+    "url" : "http://www.framablog.org/index.php/post/2012/09/26/linus-torvalds-linux-git-fake"
+  },
+  {
+    "title" : "Mon amour pour la conception adaptative tourne autour de l'idée que mon site vous sera agréable où que vous soyez, du smartphone au bureau ainsi que partout entre les deux.",
+    "author" : "Trent walton",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Les tendances sont du poison. C'est dommage que la <strong>conception adaptative</strong> soit considérée comme une \"tendance du design web\".<br> Ça ne l'est pas.<br> C'est un <strong>nouvel état d'esprit</strong>. ",
+    "author" : "",
+    "twitter" : "smashingmag ",
+    "url" : ""
+  },
+  {
+    "title" : "La simplicité est la sophistication suprême.",
+    "author" : "Léonard de Vinci",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "Internet doit enrichir la vie de tout le monde.",
+    "author" : "Mozilla",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "La perfection est atteinte, non pas lorsqu'il n'y a plus rien à ajouter, mais lorsqu'il n'y a plus rien à retirer.",
+    "author" : "Antoine de Saint-Exupéry",
     "twitter" : "",
     "url" : ""
   },
