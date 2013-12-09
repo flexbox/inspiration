@@ -367,7 +367,7 @@
   },
   {
     "title" : "Aujourd'hui Tous les navigateur sur le marché ont <strong>une taille</strong> de police <strong>par défaut de 16 pixels</strong>.<br>...<br>Voila. C'est dit",
-    "author" : "Craig sharkie",
+    "author" : "Craig Sharkie",
     "twitter" : "twalve",
     "url" : ""
   },
@@ -386,7 +386,7 @@
   {
     "title" : "Un bon design est celui que vous ne remarquez même pas.",
     "author" : "Geoffrey Dorne",
-    "twitter" : "@GeoffreyDorne",
+    "twitter" : "GeoffreyDorne",
     "url" : ""
   },
   {
@@ -508,6 +508,12 @@
     "author" : "Antichamber",
     "twitter" : "",
     "url": "http://www.antichamber-game.com/"
+  },
+  {
+    "title" : "95% de l'information sur le web est du texte.<br>Il est logique de dire qu'un web designer doit avoir une formation dans la discipline principale de mise en forme des informations : <strong>la Typographie</strong>.",
+    "author" : "Oliver Reichenstein",
+    "twitter" : "",
+    "url": "http://ia.net/blog/the-web-is-all-about-typography-period"
   }
 ]
 
