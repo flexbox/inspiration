@@ -1,7 +1,6 @@
-Webcitation
-===========
+# [Webcitation](http://webcitation.fr)
 
-Popular quotes from humans working in the web industry
+### Popular quotes from humans working in the web industry.
 
 Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer template](https://github.com/polymatt/slimmer).
 
