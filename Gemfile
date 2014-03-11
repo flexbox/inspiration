@@ -6,7 +6,7 @@ gem 'therubyracer'
 gem 'middleman'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload'
-gem 'middleman-favicon-maker'
+gem 'middleman-favicon-maker', '~> 3.5'
 
 gem 'slim'
 
