@@ -562,5 +562,11 @@
     "author" : "Sindre Sorhus",
     "twitter" : "sindresorhus",
     "url": ""
+  },
+  {
+    "title" : "Je déteste entendre \"oh c'était juste un mauvais exemple, mais le principe général est que... \". Si vous ne pouvez pas produire un bon exemple, vous n'avez pas un principe général.",
+    "author" : "DHH",
+    "twitter" : "dhh",
+    "url" : ""
   }
 ]
