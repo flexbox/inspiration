@@ -610,5 +610,11 @@
     "author" : "DHH",
     "twitter" : "dhh",
     "url" : ""
+  },
+  {
+    "title":"XML c'est comme la violence — si ça ne résoud pas tes problèmes, alors tu n'en utilises pas assez.",
+    "author":"Anonyme",
+    "twitter":"",
+    "url":"http://nokogiri.org"
   }
 ]
