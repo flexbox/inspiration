@@ -1,20 +1,22 @@
 @charset "UTF-8";
 
 @import
-  "normalize-css/normalize",
+  "foundation/scss/foundation/functions",
   "colors",
-  "foundation/settings";
-
-// Foundation Components
-@import
-  "foundation/global",
-  "foundation/grid",
-  "foundation/visibility",
-  "foundation/type",
-  "foundation/inline-list",
-  "foundation/buttons";
+  "google-font",
+  "settings";
 
 @import
-  "quotes",
-  "header",
-  "footer";
+  "foundation/scss/normalize",
+  "foundation/scss/foundation/components/global",
+  "foundation/scss/foundation/components/grid",
+  "foundation/scss/foundation/components/visibility",
+  "foundation/scss/foundation/components/type",
+  "foundation/scss/foundation/components/inline-lists",
+  "foundation/scss/foundation/components/buttons",
+  "foundation/scss/foundation/components/icon-bar";
+
+@import
+  "front/quotes",
+  "front/header",
+  "front/footer";

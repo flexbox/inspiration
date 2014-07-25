@@ -1,0 +1,23 @@
+---
+title: Chaque jour une nouvelle dose d'inspiration
+---
+
+- data.quotes.each do |quote|
+
+  .row
+    .medium-10.medium-centered.columns
+      #js-content.m-quote
+        h2.l-author
+          = quote.author
+        p.l-title
+          = quote.title
+        ul.inline-list
+          - if quote['twitter'].present?
+            li.l-links
+              = link_to "@#{quote.twitter} sur Twitter", quote.twitter
+          - if quote['url'].present?
+            li.l-links
+              = link_to "Source", quote.url
+  .row
+    .small-2.small-centered.columns
+      i.fa.fa-angle-down.fa-2x

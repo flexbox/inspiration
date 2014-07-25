@@ -14,4 +14,4 @@
 .npm-debug.log
 
 # Ignore Bower Folder
-/bower
+/bower_components

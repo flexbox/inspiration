@@ -2,14 +2,14 @@ $font-weight-normal: 400;
 $text-shadow : 0 1px 1px rgba($black,.4);
 $quote-border-style : 2px dotted $white-steroid;
 
-$quote-title-font-size: emCalc(60);
+$quote-title-font-size: rem-calc(60);
 
 body {
   font-family: 'Signika',sans-serif;
 }
 
 .m-quote {
-  margin: emCalc(100) 0 emCalc(150) 0;
+  margin: rem-calc(100) 0 rem-calc(150) 0;
 
   strong {
     color: $white-steroid;
@@ -29,11 +29,11 @@ body {
 
     font-weight: 300;
     line-height: 1.3em;
-    margin: emCalc(10) 0 emCalc(5);
-    padding: emCalc(5) 0;
+    margin: rem-calc(10) 0 rem-calc(5);
+    padding: rem-calc(5) 0;
     position: relative;
 
-    font-size: $quote-title-font-size - emCalc(30);
+    font-size: $quote-title-font-size - rem-calc(30);
     @media #{$small} {
       font-size: $quote-title-font-size;
     }
@@ -56,12 +56,8 @@ body {
 
   .l-links {
     font-family: 'Signika',sans-serif;
-    font-size: emCalc(20);
+    font-size: rem-calc(20);
     line-height: 1.5em;
-    margin-right: emCalc(20);
+    margin-right: rem-calc(20);
   }
-}
-
-.js-get-lucky {
-  margin-bottom: emCalc(150);
 }
