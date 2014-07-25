@@ -1,3 +1,5 @@
+page "/sitemap.xml", :layout => false
+
 require 'slim'
 
 activate :gzip
@@ -23,4 +25,5 @@ configure :build do
   activate :asset_hash
   activate :favicon_maker
 
+  activate :sitemap, :hostname => data.settings.site.url
 end

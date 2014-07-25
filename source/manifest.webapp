@@ -1,0 +1,13 @@
+{
+  "name": "webcitation",
+  "description": "Chaque jour une nouvelle citation d'humain qui travaille dans l'industrie du web",
+  "launch_path": "/index.html",
+  "icons": {
+    "144": "favicon_base.png"
+  },
+  "developer": {
+    "name": "David Leuliette",
+    "url": "http://davidl.fr"
+  },
+  "default_locale": "fr"
+}

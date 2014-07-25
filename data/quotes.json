@@ -1,7 +1,37 @@
 [
   {
+    "title" : "Les gens les plus éloignés de la compréhension de la technologie sont souvent ceux qui prennent les décisions stratégiques.",
+    "author" : "Dennis Kardys",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "La refactorisation c'est comme faire la vaisselle après la cuisine.",
+    "author" : "Toby Parkins",
+    "twitter" : "tobyparkins",
+    "url" : ""
+  },
+  {
+    "title" : "Nous avons prototypé cette solution et nous avons rencontrés des problèmes avec <strong>les lois de la physique</strong>, que nous ne pouvons pas changer.",
+    "author" : "Jonathan Yve",
+    "twitter" : "",
+    "url" : ""
+  },
+  {
+    "title" : "La tarification fixe est un vieux modèle familier établi bien avant que le web existe.",
+    "author" : "Craig Buckler",
+    "twitter" : "craigbuckler",
+    "url" : ""
+  },
+  {
+    "title" : "Chaque jour, plus de <strong>99 années humaines sont gaspillées</strong> à cause d'un contenu non-compréssé.",
+    "author" : "Arvind Jain",
+    "twitter" : "",
+    "url" : "https://developers.google.com/speed/articles/use-compression"
+  },
+  {
     "title" : "La vie est assez simple : vous faites des choses. La plupart échouent. Certaines fonctionnent. Vous travaillez plus sur ce qui fonctionne. Si cela fonctionne bien, les autres vous copient rapidement. Puis vous <strong>faites autre chose</strong>. Le truc, c'est de faire autre chose.",
-    "author" : "Lénonard de Vinci",
+    "author" : "Léonard de Vinci",
     "twitter" : "",
     "url" : ""
   },

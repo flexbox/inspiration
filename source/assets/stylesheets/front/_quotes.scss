@@ -9,7 +9,7 @@ body {
 }
 
 .m-quote {
-  margin: rem-calc(100) 0 rem-calc(150) 0;
+  margin: rem-calc((100, 0, 150, 0));
 
   strong {
     color: $white-steroid;
@@ -29,8 +29,10 @@ body {
 
     font-weight: 300;
     line-height: 1.3em;
-    margin: rem-calc(10) 0 rem-calc(5);
-    padding: rem-calc(5) 0;
+    margin-top: rem-calc(20);
+    margin-bottom: rem-calc(10);
+    padding-top: rem-calc(20);
+    padding-bottom: rem-calc(20);
     position: relative;
 
     font-size: $quote-title-font-size - rem-calc(30);
@@ -39,17 +41,11 @@ body {
     }
 
     &:before {
-      content: "\201C";
+      font-family: "FontAwesome";
+      content: "\f10d";
       position: absolute;
       top: 0;
-      left: -0.5em;
-      color: $white;
-    }
-    &:after {
-      content: "\201D";
-      position: absolute;
-      bottom: -0.5em;
-      right: -0.5em;
+      left: -1.25em;
       color: $white;
     }
   }
