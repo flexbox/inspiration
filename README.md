@@ -6,4 +6,4 @@ Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer template](https
 
 ## Contributing
 
-Simply _edit_ the json file [quotes.json](https://github.com/flexbox/webcitation/blob/master/source/quotes.json) and make a pull request
+Simply _edit_ the json file [quotes.json](https://github.com/flexbox/webcitation/blob/master/data/quotes.json) and make a pull request

@@ -1,16 +1,15 @@
 .m-header {
-  font-size: emCalc(12);
+  font-size: rem-calc(12);
 
   @media #{$small} {
     font-size: inherit;
   }
 
-  background-color: $black;
   font-family: 'Quando',serif;
-  padding: emCalc(20) 0;
+  padding: rem-calc(20) 0;
 
   h1 {
-    color: $red-steroid;
+    color: $white;
     margin: 0;
 
     small {

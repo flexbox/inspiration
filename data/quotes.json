@@ -1,5 +1,23 @@
 [
   {
+    "title" : "Le design, après tout, ce n'est pas d'avoir l'air beau, mais de convaincre les utilisateurs à répondre, interagir, et dans de nombreux cas, acheter, vous inscrire ou agir plutôt que de passivement visiter un site, et dire \"c'est bien\" ... sans jamais revenir.",
+    "author" : "Ben Gremillion",
+    "twitter" : "benthinkin",
+    "url" : ""
+  },
+  {
+    "title" : "Utiliser Photoshop / Fireworks pour le responsive design c'est comme se battre au couteau dans une fusillade.",
+    "author" : "Andy Clarke",
+    "twitter" : "Malarkey",
+    "url" : "http://fr.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  {
+    "title" : "Le web doit être accessible depuis n'importe quel type d'appareil qui peut se connecter à Internet : fixe ou mobile, petit ou grand écran.",
+    "author" : "Tim Berners-Lee",
+    "twitter" : "",
+    "url" : "http://fr.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  {
     "title" : "Les gens les plus éloignés de la compréhension de la technologie sont souvent ceux qui prennent les décisions stratégiques.",
     "author" : "Dennis Kardys",
     "twitter" : "",
@@ -456,7 +474,7 @@
     "url" : "http://en.wikipedia.org/wiki/Robert_Bringhurst"
   },
   {
-    "title" : "Github est devenu une sorte de grand World of Warcraft pour développeurs ?",
+    "title" : "GitHub est devenu une sorte de grand World of Warcraft pour développeurs ?",
     "author" : "Linus torvalds ?",
     "twitter" : "",
     "url" : "http://www.framablog.org/index.php/post/2012/09/26/linus-torvalds-linux-git-fake"
