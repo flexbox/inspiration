@@ -664,5 +664,11 @@
     "author":"Anonyme",
     "twitter":"",
     "url":"http://nokogiri.org"
+  },
+  {
+    "title":"La complexité créée par un programmeur est inversement proportionnelle à sa capacité à la gérer.",
+    "author":"Kent Beck",
+    "twitter":"KentBeck",
+    "url":"http://threeriversinstitute.org/"
   }
 ]
