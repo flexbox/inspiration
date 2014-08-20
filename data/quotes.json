@@ -1,5 +1,11 @@
 [
   {
+    "title":"La complexité créée par un programmeur est inversement proportionnelle à sa capacité à la gérer.",
+    "author":"Kent Beck",
+    "twitter":"KentBeck",
+    "url":"http://threeriversinstitute.org/"
+  },
+  {
     "title" : "Le design, après tout, ce n'est pas d'avoir l'air beau, mais de convaincre les utilisateurs à répondre, interagir, et dans de nombreux cas, acheter, vous inscrire ou agir plutôt que de passivement visiter un site, et dire \"c'est bien\" ... sans jamais revenir.",
     "author" : "Ben Gremillion",
     "twitter" : "benthinkin",
@@ -664,11 +670,5 @@
     "author":"Anonyme",
     "twitter":"",
     "url":"http://nokogiri.org"
-  },
-  {
-    "title":"La complexité créée par un programmeur est inversement proportionnelle à sa capacité à la gérer.",
-    "author":"Kent Beck",
-    "twitter":"KentBeck",
-    "url":"http://threeriversinstitute.org/"
   }
 ]
