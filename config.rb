@@ -1,3 +1,11 @@
+activate :google_analytics do |ga|
+  ga.tracking_id = data.settings.google_analytics.tracking_code
+  ga.anonymize_ip = true
+  ga.debug = false
+  ga.development = false
+  ga.minify = true
+end
+
 page "/sitemap.xml", :layout => false
 
 require 'slim'
@@ -19,7 +27,7 @@ end
 
 # Build-specific configuration
 configure :build do
-
+  activate :minify_html
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
