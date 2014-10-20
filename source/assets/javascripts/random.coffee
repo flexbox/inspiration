@@ -19,5 +19,5 @@ getMyQuote = ->
       $("#js-url").append url
     $("#js-content").fadeIn()
 
-$(document).ready ->
+$ ->
   getMyQuote()
