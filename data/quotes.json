@@ -1,6 +1,42 @@
 [
   {
-    "title":"Some people, when confronted with a problem, think \"I know, I'll use regular expressions.\" Now they have two problems.",
+    "title":"On ne remarque pas quand c'est rapide, mais on ressent quand c'est lent.",
+    "author":"‮ Tim Carry",
+    "twitter":"pixelastic",
+    "url":"http://www.pixelastic.com/"
+  },
+  {
+    "title":"La simplicité est uniquement simple quand quelqu'un a supprimé toute la complexité.",
+    "author":"Anonyme",
+    "twitter":"",
+    "url":"https://medium.com/@lvondehs/simple-is-never-simple-2a756906a3f3"
+  },
+  {
+    "title":"Comment puis-je télécharger une application sur mon smartphone et instantanément savoir comment l'utiliser, alors que je dois suivre une formation pour utiliser un CMS ?",
+    "author":"Anonyme",
+    "twitter":"",
+    "url":"http://boagworld.com/content-strategy/everybody-hates-their-content-management-system/"
+  },
+  {
+    "title":"Faire un prototype est un moyen de <strong>sortir une idée de votre tête</strong> pour la confronter avec le monde extérieur.",
+    "author":"Jared Spool",
+    "twitter":"jmspool",
+    "url":""
+  },
+  {
+    "title":"L’avenir de la publicité est le HTML.",
+    "author":"Mark Boulton",
+    "twitter":"",
+    "url":""
+  },
+  {
+    "title":"Les liens vont quelque part. Les boutons font quelque chose. Ce n'est pas la même chose.",
+    "author":"Bruce Lawson",
+    "twitter":"brucel",
+    "url":"http://www.brucelawson.co.uk/"
+  },
+  {
+    "title":"Certaines personnes, lorsqu'ils sont confrontés à un problème, pensent <strong>\"J'ai une idée', je vais utiliser des expressions régulières.\"</strong> Maintenant, ils ont deux problèmes.",
     "author":"Jamie Zawinski",
     "twitter":"jwz",
     "url":"http://www.jwz.org/"
@@ -30,7 +66,7 @@
     "url" : "http://fr.wikipedia.org/wiki/Tim_Berners-Lee"
   },
   {
-    "title" : "Le web doit être accessible depuis n'importe quel type d'appareil qui peut se connecter à Internet : fixe ou mobile, petit ou grand écran.",
+    "title" : "Le web doit être <strong>accessible depuis n'importe quel type d'appareil</strong> qui peut se connecter à Internet : fixe ou mobile, petit ou grand écran.",
     "author" : "Tim Berners-Lee",
     "twitter" : "",
     "url" : "http://fr.wikipedia.org/wiki/Tim_Berners-Lee"
