@@ -9,12 +9,6 @@ title: A propos
 
       Webcitation est une application regroupant des citations de personnes travaillant dans l'industrie du web. Elle est conçue, construite et mise à jour par [David Leuliette](http://davidl.fr), pour vous inspirer toutes les semaines. Il réalise une sélection des meilleures citations croisées sur différents articles de blogs, livres ou conférences.
 
-    p.text-center
-      'Contribuer avec des micro dons
-    = link_to "https://flattr.com/submit/auto?user_id=#{data.settings.social.flattr}&url=#{data.settings.site.url}", target: '_blank', class: 'm-flattr' do
-      = image_tag '//api.flattr.com/button/flattr-badge-large.png', alt: 'Aidez moi à developper ce site', title: 'Aidez moi à developper ce site'
-
-    markdown:
       ## Contributions
 
       Seulement les citations en Français sont acceptées. Les citations doivent avoir un minimum de rapport avec la création et le développement de sites / applications web (Même si leur auteur n'a pas connu ça, comme Léonard de Vinci). Les propositions avec un contenu inapproprié ne sont pas acceptées.
@@ -23,7 +17,7 @@ title: A propos
 
       Pour partager une citation, [lisez le README](https://github.com/flexbox/webcitation/blob/master/README.md) ou [créez une pull request](https://github.com/flexbox/webcitation/blob/master/data/quotes.json).
 
-      ## A propos de l'application
+    h2 A propos de l'application
 
     p
       'Construit avec
@@ -33,10 +27,3 @@ title: A propos
       'et hébergé sur
       = link_to 'GitHub', 'https://github.com/flexbox/webcitation'
       '.
-
-    br
-    br
-    br
-    br
-    br
-    br

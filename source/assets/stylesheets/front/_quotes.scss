@@ -1,7 +1,6 @@
 $font-weight-normal: 400;
 $text-shadow : 0 1px 1px rgba($black,.4);
 $quote-border-style : 2px dotted $white-steroid;
-
 $quote-title-font-size: rem-calc(60);
 
 body {
@@ -9,7 +8,7 @@ body {
 }
 
 .m-quote {
-  margin: rem-calc((100, 0, 150, 0));
+  margin-bottom: rem-calc(450);
 
   strong {
     color: $white-steroid;

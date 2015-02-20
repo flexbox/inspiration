@@ -4,7 +4,6 @@ description: Chaque jour une nouvelle dose d'inspiration
 ---
 
 - data.quotes.each do |quote|
-
   .row
     .medium-10.medium-centered.columns
       #js-content.m-quote
@@ -19,6 +18,3 @@ description: Chaque jour une nouvelle dose d'inspiration
           - if quote['url'].present?
             li.l-links
               = link_to 'Source', quote.url, rel: 'nofollow'
-  .row
-    .small-2.small-centered.columns
-      i.fa.fa-angle-down.fa-2x
