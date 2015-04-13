@@ -1,0 +1,620 @@
+-
+  title: "Stylo et papier pour des maquettes. Aucun travail haute qualité avec Photoshop n'est nécessaire - quand nous avons <strong>des maquettes non-interactives</strong> pour un média interactif, le stylo et papier font l’affaire."
+  author: "#opensourcedesign"
+  twitter: ""
+  url: "https://github.com/opensourcedesign/resources"
+-
+  title: "Toute application qui peut être écrite en JavaScript finira par être écrite en JavaScript."
+  author: "Jeff Atwood"
+  twitter: ""
+  url: "http://en.wikipedia.org/wiki/Jeff_Atwood"
+-
+  title: "De bonnes solutions à long terme exigent de <strong>bonnes bases</strong> à long terme."
+  author: "Vitaly Friedman"
+  twitter: "smashingmag"
+  url: "http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/"
+-
+  title: "En tant que designer vous devez utiliser la <strong>même mécanique</strong> 3 ou 4 fois."
+  author: "Edmund McMillen"
+  twitter: ""
+  url: "http://www.edmundm.com/"
+-
+  title: "On ne remarque pas quand c’est rapide, mais on ressent quand c’est lent."
+  author: "Tim Carry"
+  twitter: "pixelastic"
+  url: "http://www.pixelastic.com/"
+-
+  title: "La simplicité est uniquement simple quand quelqu’un a supprimé toute la complexité."
+  author: "Anonyme"
+  twitter: ""
+  url: "https://medium.com/@lvondehs/simple-is-never-simple-2a756906a3f3"
+-
+  title: "Comment puis-je télécharger une application sur mon smartphone et instantanément savoir comment l’utiliser, alors que je dois suivre une formation pour utiliser un CMS ?"
+  author: "Anonyme"
+  twitter: ""
+  url: "http://boagworld.com/content-strategy/everybody-hates-their-content-management-system/"
+-
+  title: "Faire un prototype est un moyen de <strong>sortir une idée de votre tête</strong> pour la confronter avec le monde extérieur."
+  author: "Jared Spool"
+  twitter: "jmspool"
+  url: ""
+-
+  title: "L’avenir de la publicité est le HTML."
+  author: "Mark Boulton"
+  twitter: ""
+  url: ""
+-
+  title: "Les liens vont quelque part. Les boutons font quelque chose. Ce n’est pas la même chose."
+  author: "Bruce Lawson"
+  twitter: "brucel"
+  url: "http://www.brucelawson.co.uk/"
+-
+  title: "Certaines personnes, lorsqu’ils sont confrontés à un problème, pensent <strong>”J’ai une idée’, je vais utiliser des expressions régulières.“</strong> Maintenant, ils ont deux problèmes."
+  author: "Jamie Zawinski"
+  twitter: "jwz"
+  url: "http://www.jwz.org/"
+-
+  title: "Une grande surface d’affichage est un outil de productivité et de créativité."
+  author: "Un certain Hubert S."
+  twitter: "hsablonniere"
+  url: "http://new.livestream.com/accounts/1764940/ParisWeb-blin/videos/65176594"
+-
+  title: "La complexité créée par un programmeur est inversement proportionnelle à sa capacité à la gérer."
+  author: "Kent Beck"
+  twitter: "KentBeck"
+  url: "http://threeriversinstitute.org/"
+-
+  title: "Le design, après tout, ce n’est pas d’avoir l’air beau, mais de convaincre les utilisateurs à répondre, interagir, et dans de nombreux cas, acheter, vous inscrire ou agir plutôt que de passivement visiter un site, et dire \"c’est bien\" ... sans jamais revenir."
+  author: "Ben Gremillion"
+  twitter: "benthinkin"
+  url: ""
+-
+  title: "Utiliser Photoshop / Fireworks pour le responsive design c’est comme se battre au couteau dans une fusillade."
+  author: "Andy Clarke"
+  twitter: "Malarkey"
+  url: "http://fr.wikipedia.org/wiki/Tim_Berners-Lee"
+-
+  title: "Le web doit être <strong>accessible depuis n’importe quel type d’appareil</strong> qui peut se connecter à Internet : fixe ou mobile, petit ou grand écran."
+  author: "Tim Berners-Lee"
+  twitter: ""
+  url: "http://fr.wikipedia.org/wiki/Tim_Berners-Lee"
+-
+  title: "Les gens les plus éloignés de la compréhension de la technologie sont souvent ceux qui prennent les décisions stratégiques."
+  author: "Dennis Kardys"
+  twitter: ""
+  url: ""
+-
+  title: "La refactorisation c’est comme faire la vaisselle après la cuisine."
+  author: "Toby Parkins"
+  twitter: "tobyparkins"
+  url: ""
+-
+  title: "Nous avons prototypé cette solution et nous avons rencontrés des problèmes avec <strong>les lois de la physique</strong>, que nous ne pouvons pas changer."
+  author: "Jonathan Yve"
+  twitter: ""
+  url: ""
+-
+  title: "La tarification fixe est un vieux modèle familier établi bien avant que le web existe."
+  author: "Craig Buckler"
+  twitter: "craigbuckler"
+  url: ""
+-
+  title: "Chaque jour, plus de <strong>99 années humaines sont gaspillées</strong> à cause d’un contenu non-compréssé."
+  author: "Arvind Jain"
+  twitter: ""
+  url: "https://developers.google.com/speed/articles/use-compression"
+-
+  title: "La vie est assez simple : vous faites des choses. La plupart échouent. Certaines fonctionnent. Vous travaillez plus sur ce qui fonctionne. Si cela fonctionne bien, les autres vous copient rapidement. Puis vous <strong>faites autre chose</strong>. Le truc, c’est de faire autre chose."
+  author: "Léonard de Vinci"
+  twitter: ""
+  url: ""
+-
+  title: "Ce n’est pas de la Direction Artistique, c’est du <strong>bon sens</strong>."
+  author: "François Vilaire"
+  twitter: "cyshini"
+  url: ""
+-
+  title: "Le <strong>processus de conception</strong> est bizarre et compliqué, car il <strong>implique des personnes</strong>, qui sont bizarres et compliqués."
+  author: "Brad Frost"
+  twitter: "brad_frost"
+  url: "http://bradfrostweb.com/"
+-
+  title: "La première règle de toute technologie utilisée dans une entreprise est que l’automatisation appliquée à une opération efficace amplifiera l’efficacité. <br>La deuxième est que l’automatisation appliquée à une opération inefficace amplifiera l’inefficacité."
+  author: "Bill Gates"
+  twitter: ""
+  url: ""
+-
+  title: "En tant que designer, c’est notre travail de se demander pourquoi certains éléments doivent exister."
+  author: "Sam Solomon"
+  twitter: ""
+  url: "http://solomon.io/why-im-done-with-social-media-buttons/"
+-
+  title: "Steve Jobs est aussi important à notre ère que Pythagore l’était en son temps"
+  author: "Sylvain Weber"
+  twitter: ""
+  url: "http://lapilulerouge.com/le-plus-beau-metier-du-monde/"
+-
+  title: "Être designer web et ne pas considérer la <strong>performance</strong>, c’est comme être graphiste print et ne pas considérer la façon dont les couleurs seront imprimées."
+  author: "Luke Wroblewski"
+  twitter: "lukew"
+  url: ""
+-
+  title: "Contenu en haut de page, contrôles en bas."
+  author: "Luke Wroblewski"
+  twitter: "lukew"
+  url: ""
+-
+  title: "En 2009, la taille moyenne d’un site Web était 320kb. Aujourd’hui, en 2013, elle est de 1.4MB. En un peu plus de deux ans, nous avons <strong>triplé la taille</strong>. La loi de Moore n’a pas suivi le rythme de la bande passante."
+  author: "Luke Wroblewski"
+  twitter: "lukew"
+  url: ""
+-
+  title: "Nous devons faire que chaque idée implémentée soit disponible sur le plus petit dénominateur commun technologique."
+  author: "Jeff zeen &bull; Typekit"
+  twitter: ""
+  url: ""
+-
+  title: "Refuser tout compromis."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Il est vraiment difficile de concevoir des produits par groupes de discussion. La plupart du temps, les gens ne <strong>savent pas ce qu’ils veulent</strong> jusqu’à ce que vous le leur montriez."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "N’oubliez pas qu’il ya déjà <strong>trop de choses</strong> dehors. Nous n’en avons pas besoin de plus. Nous avons besoin de choses qui <strong>fonctionnent bien</strong>."
+  author: "Aral Balkan"
+  twitter: "aral"
+  url: ""
+-
+  title: "Un webdesigner est un concepteur d’<strong>expérience utilisateur</strong>."
+  author: "Aral Balkan"
+  twitter: "aral"
+  url: ""
+-
+  title: "Assurez-vous d’apprendre quelque chose de <strong>nouveau chaque jour</strong>."
+  author: "Anders M. Andersen"
+  twitter: "andmag"
+  url: ""
+-
+  title: "Je pense qu’il y a 3 mots sur le web en ce moment qui demandent du travail pour beaucoups d’entre nous : <strong>Responsive</strong>, <strong>Web</strong>, <strong>Design</strong>."
+  author: "Ethan Marcotte"
+  twitter: ""
+  url: "http://ethanmarcotte.com/"
+-
+  title: "Rien n’est terminé tant que le produit n’est pas dans les cartons."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Il vaut mieux faire quelque chose et se planter plutôt que de ne rien faire."
+  author: "La voix du hacker"
+  twitter: ""
+  url: ""
+-
+  title: "Le voyage est la récompense."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Ne codez pas votre CSS pour la page. <strong>Codez pour le système</strong>."
+  author: "Jonathan Snook"
+  twitter: "snookca"
+  url: "https://speakerdeck.com/u/snookca/p/your"
+-
+  title: "Dépanne le PC d’un n00b et il sera bien content aujourd’hui. Apprends-lui à le réparer lui-même et il ne te fera plus jamais chier."
+  author: "Ra’s al Ghul"
+  twitter: ""
+  url: ""
+-
+  title: "Lorsque nous concevons pour l’avenir, en fait, nous concevons l’avenir."
+  author: "Carl Smith"
+  twitter: ""
+  url: ""
+-
+  title: "Ne perdez pas votre temps sur la conception d’une belle interface pour un contenu médiocre. Développez votre énergie pour refaire votre contenu à la place."
+  author: "Christian Holst"
+  twitter: ""
+  url: ""
+-
+  title: "Les vrais artistes terminent leurs oeuvres."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Mieux vaut être pirate que de rejoindre la marine."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Le PC est un camion."
+  author: "Steve Jobs"
+  twitter: ""
+  url: ""
+-
+  title: "Photoshop n’est pas un moyen efficace de présenter un design web."
+  author: "Pete Miller"
+  twitter: ""
+  url: ""
+-
+  title: "Ne pas planifiez pas l’avenir par le passé."
+  author: "Kim Dotcom"
+  twitter: ""
+  url: ""
+-
+  title: "Concevoir pour le web, c’est comme visualiser un <strong>tesseract</strong>. Nous construisons des expériences en manipulant leurs ombres."
+  author: "Tim Brown"
+  twitter: "tceb62"
+  url: "http://fr.wikipedia.org/wiki/Tesseract"
+-
+  title: "Le secret dans la construction de larges applications est  de ne <strong>jamais</strong> construire de larges applications. Eclatez votre application en <strong>petits morceaux</strong>. Ensuite, assemblez ces composants testés, et vérifiés dans votre grande application."
+  author: "Justin Meyer &bull; JavascriptMVC"
+  twitter: "justinbmeyer"
+  url: ""
+-
+  title: "Commencez par le petit écran, puis augmentez la taille jusqu’à ce ça ne ressemble plus à rien. Il est temps de placer votre breakpoint !"
+  author: "Stephen Hay"
+  twitter: "stephenhay"
+  url: ""
+-
+  title: "La façon dont les Media Queries CSS sont présentées pour règler les problèmes sur les mobiles, donne aux développeurs la fausse promesse d’une solution simple pour la conception adaptative."
+  author: "Jason Grigsby"
+  twitter: "grigs"
+  url: ""
+-
+  title: "C’est incroyable de voir combien vous pouvez faire en une journée, simplement si vous restez assis et que vous le faites."
+  author: "Le père de Bill Tregle"
+  twitter: ""
+  url: ""
+-
+  title: "Je ne suis pas plus intelligent, je reste sur un problème plus longtemps."
+  author: "Albert Einstein"
+  twitter: ""
+  url: ""
+-
+  title: "Je n’ai pas de talents particuliers, je suis simplement très curieux."
+  author: "Albert Einstein"
+  twitter: ""
+  url: ""
+-
+  title: "Le monde ne sera pas détruit par ceux qui font le mal, mais par ceux qui les regardent sans rien faire."
+  author: "Albert Einstein"
+  twitter: ""
+  url: ""
+-
+  title: "La chose la plus dangereuse n’est pas que les machines pourraient commencer à penser comme des humains, mais que les humains pourraient commencer à penser comme des machines."
+  author: "Sydney J Harris"
+  twitter: ""
+  url: "http://en.wikipedia.org/wiki/Sydney_J._Harris"
+-
+  title: "En France, il y a confusion : Webdesigner = Graphiste <strong>magicien de l’internet</strong>."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "Un bon designer ne doit pas seulement faire de belles choses, ses conceptions doivent êtres <strong>utiles aux utilisateurs</strong>."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "Chaque site internet est un document vivant."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "Si vous ne faites pas ce que vous aimez, alors vous perdez votre temps."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "La compétence vient avec la passion."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "Quand le seul outil dont vous disposez est un marteau, tout ressemble à un clou."
+  author: "Abraham Maslow"
+  twitter: ""
+  url: ""
+-
+  title: "Toute révolution technologique exige un niveau de plomberie (autrement dit d’infrastructure)."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "Il n’y a pas de plus beau cadeau que la connaissance."
+  author: "David Leuliette"
+  twitter: "_flexbox"
+  url: "http://davidl.fr"
+-
+  title: "Comic Sans, c’est un peu la démonstration typographique de la médiocrité victorieuse."
+  author: "Tristan Nitot"
+  twitter: "nitot"
+  url: ""
+-
+  title: "Vous récoltez ce que vous semez."
+  author: "Jon Hicks"
+  twitter: ""
+  url: "http://www.hicksdesign.co.uk/"
+-
+  title: "La programmation est une course entre les développeurs tâchant de concevoir des programmes de plus en plus nombreux et efficaces, accessibles même aux imbéciles, et l’univers essayant de produire des idiots de plus en plus nombreux et efficaces. Jusqu’à présent, c’est l’univers qui gagne."
+  author: "Les Geeks &bull; la BD"
+  twitter: ""
+  url: "http://www.lesgeeks.net"
+-
+  title: "Il est beaucoup plus intéressant de discuter de la façon de <strong>résoudre les problèmes</strong> plutôt que de les signaler."
+  author: "Patrick B. Gibson"
+  twitter: "patr1ck"
+  url: ""
+-
+  title: "En 2013 l’humanité crée 5 hexabytes de données en <strong>10 minutes</strong>."
+  author: "Peter Diamandis &bull; co-fondateur université de la singularité"
+  twitter: "PeterDiamandis"
+  url: ""
+-
+  title: "Les grands artistes volent."
+  author: "Pablo Picasso"
+  twitter: ""
+  url: ""
+-
+  title: "Le code est de la poésie."
+  author: "Codex Wordpress"
+  twitter: ""
+  url: ""
+-
+  title: "Les sites web sont comme des livres de jeux."
+  author: "Denise Jacobs"
+  twitter: "denisejacobs"
+  url: ""
+-
+  title: "L’histoire précède la conception. La conception en <strong>l’abscence d’histoire n’est pas du design</strong>. C’est de la décoration."
+  author: "Jeffrey Zeldman"
+  twitter: ""
+  url: "http://Smashed.by/decoration"
+-
+  title: "Sur le web, la principale astuce pour <strong>développer du code</strong> qui est concis, stable, efficace et facile à maintenir, c’est la séparation et la délégation."
+  author: "Christian Heilmann"
+  twitter: "codepo8‎"
+  url: ""
+-
+  title: "Peu connaissances est une chose dangereuse."
+  author: "Alexander Pope"
+  twitter: ""
+  url: "http://fr.wikipedia.org/wiki/Alexander_Pope"
+-
+  title: "Les webdesigners sont des conteurs."
+  author: "Francisco Inchauste"
+  twitter: ""
+  url: "http://www.getfinch.com/about/"
+-
+  title: "Si votre nouveau site était une personne célèbre, qui serait-il ?"
+  author: "Paul Boag"
+  twitter: ""
+  url: "http://boagworld.com/"
+-
+  title: "Publiez ce que vous apprenez."
+  author: "Paul Irish"
+  twitter: "paul_irish"
+  url: "http://www.paulirish.com/"
+-
+  title: "Le but n’est pas de concevoir pour la technologie d’écran, mais plutôt de concevoir une <strong>expérience holistique positive</strong>."
+  author: "Jason Santa Maria"
+  twitter: "jasonsantamaria"
+  url: "http://fr.wikipedia.org/wiki/Holisme"
+-
+  title: "C’est difficile à expliquer avec des mots, nous allons l’expliquer avec du code."
+  author: "Lea Verou"
+  twitter: "LeaVerou‎"
+  url: "http://lea.verou.me/"
+-
+  title: "Nous avons besoin d’un <strong>standard d’icône pour afficher le contenu</strong> en design responsive."
+  author: "Andy Clarke"
+  twitter: ""
+  url: "http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/ "
+-
+  title: "On parle pas à une brouette, on la pousse"
+  author: "La Sagesse Populaire"
+  twitter: ""
+  url: "http://www.insertafter.com/articles-capskiller_stop_aux_majuscules.html"
+-
+  title: "Il est important de s’assurer que nous atteignons tous nos objectifs en matière de contenu, <strong>avant</strong> de commencer à plonger dans les détails de design"
+  author: "Meagan Fisher"
+  twitter: "owltastic"
+  url: ""
+-
+  title: "Quand il s’agit de naviguer sur le web, être rapide, c’est mieux."
+  author: "Joseph Scott"
+  twitter: ""
+  url: "http://josephscott.org/archives/2011/09/slides-site-performance-from-pinto-to-ferrari/"
+-
+  title: "Aujourd’hui tous les navigateurs sur le marché ont <strong>une taille</strong> de police <strong>par défaut de 16 pixels</strong>.<br>...<br>Voila. C’est dit"
+  author: "Craig Sharkie"
+  twitter: "twalve"
+  url: ""
+-
+  title: "Charger les boutons sociaux Google+, Facebook et Twitter totalise 19 requêtes serveur et prend 246.7ko en bande passante."
+  author: "Zurb"
+  twitter: ""
+  url: "http://zurb.com/article/883/small-painful-buttons-why-social-media-bu"
+-
+  title: "Les mediaqueries peuvent être utilisées pour faire plus que hacker des mises en page cassées : avec une bonne planification, nous pouvons commencer à chorégraphier notre contenu proportionnellement à la taille d’écran, au service de la meilleure expérience possible à n’importe quelle largeur."
+  author: "Trent Walton"
+  twitter: ""
+  url: ""
+-
+  title: "Un bon design est celui que vous ne remarquez même pas."
+  author: "Geoffrey Dorne"
+  twitter: "GeoffreyDorne"
+  url: ""
+-
+  title: "Au début, les utilisateurs font confiance et aiment les belles interfaces.<br> En fin de compte, ils font confiance et aiment <strong>les interfaces qui fonctionnent bien</strong>."
+  author: "Marc Hassenzahl"
+  twitter: ""
+  url: "http://hassenzahl.wordpress.com/"
+-
+  title: "Un rythme modulaire, comme un <strong>rythme musical</strong>, est un ensemble organisé de <strong>proportions harmonieuses</strong>."
+  author: "Robert Bringhurst"
+  twitter: ""
+  url: "http://en.wikipedia.org/wiki/Robert_Bringhurst"
+-
+  title: "GitHub est devenu une sorte de grand World of Warcraft pour développeurs ?"
+  author: "Linus torvalds ?"
+  twitter: ""
+  url: "http://www.framablog.org/index.php/post/2012/09/26/linus-torvalds-linux-git-fake"
+-
+  title: "Mon amour pour la conception adaptative tourne autour de l’idée que mon site vous sera agréable où que vous soyez, du smartphone au bureau ainsi que partout entre les deux."
+  author: "Trent walton"
+  twitter: ""
+  url: ""
+-
+  title: "Les tendances sont du poison. C’est dommage que la <strong>conception adaptative</strong> soit considérée comme une ”tendance du design web“.<br> Ça ne l’est pas.<br> C’est un <strong>nouvel état d’esprit</strong>. "
+  author: ""
+  twitter: "smashingmag "
+  url: ""
+-
+  title: "La simplicité est la sophistication suprême."
+  author: "Léonard de Vinci"
+  twitter: ""
+  url: ""
+-
+  title: "Internet doit enrichir la vie de tout le monde."
+  author: "Mozilla"
+  twitter: ""
+  url: ""
+-
+  title: "La perfection est atteinte, non pas lorsqu’il n’y a plus rien à ajouter, mais lorsqu’il n’y a plus rien à retirer."
+  author: "Antoine de Saint-Exupéry"
+  twitter: ""
+  url: ""
+-
+  title: "Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d’atteindre un objectif particulier."
+  author: "Charles Eames"
+  twitter: ""
+  url: ""
+-
+  title: "Réaliser la première étape peut être plus difficile que le reste du défi."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Beaucoup de petits obstacles peuvent créer un seul grand problème."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "A défaut de réussir ne signifie pas ne pas progresser."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Si vous n’aimez pas le résultat, essayez de faire autre chose."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "La perception d’un problème peut changer à chaque fois que nous le regardons."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Un problème peut être difficile quand vous ne possédez pas les bons outils."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Fractionner un problème en petites parties peut vous aider à trouver la réponse."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Creuser un peu plus et pour trouver quelque chose de nouveau."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Les anciennes compétences sont utiles, même après en avoir apprise de nouvelles."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Une fenêtre d’opportunité peut conduire à de nouveaux endroits si vous êtes prêt à regarder de plus près."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "Les problèmes complexes sont plus faciles quand ils sont résolu une étape à la fois."
+  author: "Antichamber"
+  twitter: ""
+  url: "http://www.antichamber-game.com/"
+-
+  title: "95% de l’information sur le web est du texte.<br>Il est logique de dire qu’un web designer doit avoir une formation dans la discipline principale de mise en forme des informations : <strong>la Typographie</strong>."
+  author: "Oliver Reichenstein"
+  twitter: ""
+  url: "http://ia.net/blog/the-web-is-all-about-typography-period"
+-
+  title: "La pratique fait la différence entre le savoir et les compétences."
+  author: "Frédéric de Villamil"
+  twitter: "fdevillamil"
+  url: ""
+-
+  title: "Un expert est une personne qui a commis toutes les erreurs possibles dans un domaine très restreint."
+  author: "Niels Bohr"
+  twitter: ""
+  url: "http://fr.wikipedia.org/wiki/Niels_Bohr"
+-
+  title: "Ne codez pas aujourd’hui ce que vous ne pourrez pas débuguer demain."
+  author: ""
+  twitter: ""
+  url: "http://ariya.ofilabs.com/"
+-
+  title: "Parfois, faire de notre mieux ne suffit pas; nous devons <strong>faire ce qui est nécessaire</strong>."
+  author: "Winston Churchill"
+  twitter: ""
+  url: ""
+-
+  title: "Vous ne pouvez pas apprendre à l’école ce que le monde va faire l’année prochaine."
+  author: "Henry Ford"
+  twitter: ""
+  url: ""
+-
+  title: "Le client peut avoir <strong>toutes les couleurs</strong> qu’il veut pourvu que ce soit du noir."
+  author: "Henry Ford"
+  twitter: ""
+  url: ""
+-
+  title: "Ne pas nommer une classe dans son code ”publicite“, sinon adblock te la masque, et toi tu cherches comme un con pendant 2h dans ton CSS."
+  author: "Romain Fauvet"
+  twitter: "RomainFauvet"
+  url: "http://romainfauvet.fr/"
+-
+  title: "Le terme <strong>lisibilité</strong> ne demande pas simplement ”Pouvez-vous lire ?“ Il demande : ”Voulez-vous lire ?“"
+  author: "Typographica"
+  twitter: "typographica"
+  url: "http://typographica.org/"
+-
+  title: "Toute conception basée sur une spécification écrite est une conception basée sur la théorie. Une conception basée sur un <strong>prototype</strong> est une conception basée sur l’expérience et la pratique."
+  author: "Todd Zaki Warfel"
+  twitter: "zakiwarfel"
+  url: ""
+-
+  title: "Les 17 meilleures pratiques essentielles pour faire bouger les choses : 1. <strong>Faites-le</strong> ! Répétez le 17 fois."
+  author: "Sindre Sorhus"
+  twitter: "sindresorhus"
+  url: ""
+-
+  title: "En tant que programmeur <strong>vous lisez plus de code</strong> que vous en écrivez. Gardez le lisible, documenté, cohérent et explicite"
+  author: "Sindre Sorhus"
+  twitter: "sindresorhus"
+  url: ""
+-
+  title: "Je déteste entendre ”Oh c’était juste un mauvais exemple, mais le principe général est que... “. Si vous ne pouvez pas <strong>produire un bon exemple</strong>, vous n’avez pas de principe général."
+  author: "DHH"
+  twitter: "dhh"
+  url: ""
+-
+  title: "XML c’est comme la violence — si ça ne résoud pas tes problèmes, alors tu n’en utilises pas assez."
+  author: "Anonyme"
+  twitter: ""
+  url: "http://nokogiri.org"
