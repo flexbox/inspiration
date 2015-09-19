@@ -1,26 +1,17 @@
 doctype html
 html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="fr"
   head
-    meta charset="utf-8"
-    meta name="viewport" content="width=device-width"
-
-    title #{data.settings.site.title} &bull; #{current_page.data.title}
-    meta name="description" content="#{data.settings.site.description}"
-    meta name="robots" content="index,follow"
-    = partial 'views/open_graph'
-
-    = partial 'views/favicon'
+    = partial 'views/commons/meta_tags'
+    = partial 'views/commons/favicon'
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'
 
-  body class='#{page_classes}'
+  body class="#{page_classes}"
     .m-page-container
       = partial "views/header"
       = yield
       = partial "views/control"
 
-    a href="#{data.settings.social.google_plus}?rel=author" class="hide"
-      'Google
     = javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
     = javascript_include_tag 'application'
     = google_analytics_universal_tag

@@ -1,11 +1,18 @@
 site:
   title: Webcitation
+  title_separator: •
   description: Chaque jour une nouvelle citation d'humain qui travaille dans l'industrie du web
+  geo:
+    placename: 'Lille, Nord'
+    position: 50.629250;3.057256
+    region: FR-59
   url: 'http://webcitation.fr'
   logo: 'http://webcitation.fr/apple-touch-icon-144x144-precomposed.png'
+
 social:
   google_plus: 'https://plus.google.com/u/0/113401424510170217860'
-  twitter: 'https://twitter.com/_flexbox'
+  twitter: '_flexbox'
   github: 'https://github.com/flexbox'
+
 google_analytics:
   tracking_code: 'UA-45539783-1'

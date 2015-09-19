@@ -7,14 +7,18 @@ description: Chaque jour une nouvelle dose d'inspiration
   .row
     .medium-10.medium-centered.columns
       #js-content.m-quote
-        h2.l-author
-          = quote.author
         p.l-title
           = quote.title
-        ul.inline-list
-          - if quote['twitter'].present?
-            li.l-links
-              = link_to "@#{quote.twitter} sur Twitter", quote.twitter
-          - if quote['url'].present?
-            li.l-links
-              = link_to 'Source', quote.url, rel: 'nofollow'
+        h2.l-author
+          '–
+          = quote.author
+        .row
+          .small-6.columns
+            - if quote['twitter'].present?
+              .l-links
+                = link_to "@#{quote.twitter}", quote.twitter
+          .small-6.columns
+            - if quote['url'].present?
+              .l-links.text-right
+                = link_to 'Source', quote.url, rel: 'nofollow'
+

@@ -17,12 +17,15 @@ body {
   .l-author {
     font-family: 'Playfair Display',serif;
     font-style: italic;
-    font-weight: $font-weight-normal ;
+    font-weight: $font-weight-normal;
+    text-align: right;
+    border-bottom: $quote-border-style;
+    padding-bottom: rem-calc(20);
+    margin-bottom: rem-calc(20);
   }
 
   .l-title {
     text-shadow : $text-shadow;
-    border-bottom: $quote-border-style;
     border-top: $quote-border-style;
     font-family: 'Quando',serif;
 
@@ -44,9 +47,12 @@ body {
       font-family: "FontAwesome";
       content: "\f10d";
       position: absolute;
-      top: 0;
-      left: -1.25em;
+      top: rem-calc(-60);
+      left: 50%;
       color: $white;
+      background: $yellow;
+      padding: rem-calc(0 75);
+      margin-left: rem-calc(-100);
     }
   }
 

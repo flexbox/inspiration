@@ -1,3 +1,0 @@
-Sitemap: http://www.webcitation.fr/sitemap.xml.gz
-User-Agent: *
-Disallow:

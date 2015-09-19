@@ -1,9 +1,3 @@
-burnOldQuote = ->
-  $("#js-author").html ''
-  $("#js-title").html ''
-  $("#js-twitter").html ''
-  $("#js-url").html ''
-
 getMyQuote = ->
   $.get "quotes.json", (data) ->
     quotes = data
