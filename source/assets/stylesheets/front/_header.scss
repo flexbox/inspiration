@@ -1,12 +1,16 @@
 .m-header {
+    padding-top: rem-calc(20);
+    margin-bottom: rem-calc(40);
   .l-logo {
     text-align: center;
-    color: $white;
-    padding-top: rem-calc(20);
     font-family: $body-font-family;
     font-size: rem-calc(44);
-    text-shadow : $text-shadow;
     font-weight: $font-weight-bold;
-    margin-bottom: rem-calc(40);
+    display: none;
+    @media #{$medium-up} {
+        display: block;
+        position: fixed;
+        left: rem-calc(40);
+    }
   }
 }

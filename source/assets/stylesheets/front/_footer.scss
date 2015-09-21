@@ -9,6 +9,12 @@ $footer-height : 140px;
   }
 }
 
+.about {
+  .m-page-container {
+    padding-bottom: rem-calc(100);
+  }
+}
+
 .m-control {
   position: fixed;
   bottom: -5px;
