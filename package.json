@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "webcitation",
+  "description": " Popular quotes from humans working in the web industry ",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "David Leuliette <dleuliette@gmail.com>",
   "dependencies": {
     "dotenv": "^6.0.0",
     "gatsby": "^1.9.277",
