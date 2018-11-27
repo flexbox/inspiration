@@ -15,7 +15,7 @@ const QuoteSection = styled.div`
   border-radius: 5px;
   color: white;
   min-height: 40vh;
-  max-width: 700px;
+  width: 700px;
   display: flex;
   align-items: center;
 `

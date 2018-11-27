@@ -1,8 +1,14 @@
 {
   "name": "webcitation",
-  "description": " Popular quotes from humans working in the web industry ",
-  "version": "1.0.0",
+  "description": "Popular quotes from humans working in the web industry",
   "author": "David Leuliette <dleuliette@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "format": "prettier --config ./.prettierrc --write src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "dotenv": "^6.0.0",
     "gatsby": "^1.9.277",
@@ -13,21 +19,14 @@
     "react-helmet": "^5.2.0",
     "styled-components": "^3.4.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.13.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
