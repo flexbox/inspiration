@@ -1,9 +1,34 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import Layout from 'components/layout'
+import Quotes from 'components/quotes'
+import { graphql } from 'gatsby'
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-  </div>
+const IndexPage = ({ data }) => (
+  <Layout>
+    <Quotes items={data.allContentfulQuote.edges} />
+  </Layout>
 )
 
+IndexPage.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
 export default IndexPage
+
+export const query = graphql`
+  query HomepageQuery {
+    allContentfulQuote {
+      edges {
+        node {
+          id
+          author
+          url_reference
+          title {
+            title
+          }
+        }
+      }
+    }
+  }
+`
