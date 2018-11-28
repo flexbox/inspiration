@@ -1,5 +1,26 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
+
+const Quote = ({ items }) => (
+  <QuoteList>
+    {items.map(item => (
+      <QuoteSection key={item.node.id}>
+        <Blockquote cite={item.node.url_reference}>
+          <Title>{item.node.title.title}</Title>
+          <Hr />
+          <Cite>{item.node.author}</Cite>
+        </Blockquote>
+      </QuoteSection>
+    ))}
+  </QuoteList>
+)
+
+Quote.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.object).isRequired,
+}
+
+export default Quote
 
 const QuoteList = styled.div`
   display: flex;
@@ -42,19 +63,3 @@ const Cite = styled.cite`
   opacity: 0.6;
   letter-spacing: 2px;
 `
-
-const Quote = ({ data }) => (
-  <QuoteList>
-    {data.allContentfulQuote.edges.map(edge => (
-      <QuoteSection key={edge.node.id}>
-        <Blockquote cite={edge.node.url_reference}>
-          <Title>{edge.node.title.title}</Title>
-          <Hr />
-          <Cite>{edge.node.author}</Cite>
-        </Blockquote>
-      </QuoteSection>
-    ))}
-  </QuoteList>
-)
-
-export default Quote

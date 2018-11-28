@@ -1,14 +1,28 @@
 require('dotenv').config()
+const siteConfig = require('./site-config')
 
 module.exports = {
   siteMetadata: {
-    title: 'Webcitation',
-    description: 'Une citation chaque jour',
-    keywords: 'webcitation, citation, developement, design, gestion de projet',
-    email: 'dleuliette@gmail.com',
+    ...siteConfig,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-offline',
+    'gatsby-transformer-json',
+    'gatsby-transformer-remark',
+    'gatsby-plugin-eslint',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-webpack-size',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images/,
+        },
+      },
+    },
     {
       resolve: 'gatsby-source-contentful',
       options: {
@@ -17,9 +31,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: [`Vidaloka`],
+        fonts: ['Vidaloka'],
       },
     },
   ],
