@@ -21,3 +21,49 @@ exports.onCreateWebpackConfig = ({
     },
   })
 }
+
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+  return new Promise((resolve, reject) => {
+    const quoteTemplate = path.resolve('src/pages/singleQuote.js')
+    resolve(
+      graphql(
+        `
+          {
+            allContentfulQuote {
+              edges {
+                node {
+                  id
+                  author
+                  url_reference
+                  title {
+                    title
+                  }
+                }
+              }
+            }
+          }
+        `
+      ).then(result => {
+        if (result.errors) {
+          reject(result.errors)
+        }
+
+        // Create pages
+        result.data.allContentfulQuote.edges.forEach(edge => {
+          createPage({
+            path: `${edge.node.id}`, // required
+            component: quoteTemplate,
+            context: {
+              id: edge.node.id,
+              author: edge.node.author,
+              title: edge.node.title.title,
+            },
+          })
+        })
+
+        return
+      })
+    )
+  })
+}

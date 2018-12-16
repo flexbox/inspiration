@@ -4,7 +4,7 @@
   "author": "David Leuliette <dleuliette@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "ssr": "npm run build && npm run serve",
     "format": "prettier --config ./.prettierrc --write src/**/*.js",
@@ -19,6 +19,7 @@
     "@reach/visually-hidden": "^0.1.1",
     "babel-plugin-styled-components": "^1.7.1",
     "dotenv": "^6.0.0",
+    "gatsby": "^2.0.6",
     "gatsby-image": "^2.0.5",
     "gatsby-plugin-google-fonts": "^0.0.4",
     "gatsby-plugin-offline": "^2.0.5",
@@ -32,12 +33,12 @@
     "gatsby-transformer-json": "^2.1.1",
     "gatsby-transformer-remark": "^2.1.1",
     "gatsby-transformer-sharp": "^2.1.1",
-    "gatsby": "^2.0.6",
     "prop-types": "^15.6.2",
+    "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-pose": "^3.3.0",
-    "react": "^16.5.1",
+    "rebass": "^3.0.0-12",
     "styled-components": "^4.0.0-beta.7"
   },
   "devDependencies": {

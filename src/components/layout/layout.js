@@ -5,11 +5,11 @@ import Head from 'components/head'
 import GlobalStyle from 'global.css.js'
 
 const Layout = ({ children }) => (
-  <div>
+  <>
     <GlobalStyle />
     <Head />
     {children}
-  </div>
+  </>
 )
 
 Layout.propTypes = {
