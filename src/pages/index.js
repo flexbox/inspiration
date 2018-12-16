@@ -4,18 +4,6 @@ import Layout from 'components/layout'
 import Quotes from 'components/quotes'
 import { graphql } from 'gatsby'
 
-const IndexPage = ({ data }) => (
-  <Layout>
-    <Quotes items={data.allContentfulQuote.edges} />
-  </Layout>
-)
-
-IndexPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
-export default IndexPage
-
 export const query = graphql`
   query HomepageQuery {
     allContentfulQuote {
@@ -32,3 +20,15 @@ export const query = graphql`
     }
   }
 `
+
+const IndexPage = ({ data }) => (
+  <Layout>
+    <Quotes items={data.allContentfulQuote.edges} />
+  </Layout>
+)
+
+IndexPage.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
+export default IndexPage
