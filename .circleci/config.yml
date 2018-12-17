@@ -13,22 +13,23 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-{{ checksum "yarn.lock" }}
           # Fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn install
+      - run:
+        name: Install Dependencies
+        command: yarn install
 
       - save_cache:
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+            - ./node_modules
 
-      # Run tests
-      - run: yarn test
-      - run: yarn build
-      # - deploy:
-      #     command: |
-      #       git config --global user.email $GH_EMAIL
-      #       git config --global user.name $GH_NAME
-      #       yarn deploy
+      - run:
+        name: Run tests
+        command: yarn test
+
+      - run:
+          name: Gatsby Build
+          command: yarn build
