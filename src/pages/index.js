@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Layout from 'components/layout'
-import Quotes from 'components/quotes'
+import QuoteList from 'components/quoteList'
 import { graphql } from 'gatsby'
+import { ThemeProvider } from 'styled-components'
+import { theme } from '../themes/colors'
 
 export const query = graphql`
   query HomepageQuery {
@@ -11,7 +13,6 @@ export const query = graphql`
         node {
           id
           author
-          url_reference
           title {
             title
           }
@@ -22,9 +23,11 @@ export const query = graphql`
 `
 
 const IndexPage = ({ data }) => (
-  <Layout>
-    <Quotes items={data.allContentfulQuote.edges} />
-  </Layout>
+  <ThemeProvider theme={theme}>
+    <Layout>
+      <QuoteList items={data.allContentfulQuote.edges} />
+    </Layout>
+  </ThemeProvider>
 )
 
 IndexPage.propTypes = {

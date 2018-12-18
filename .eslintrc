@@ -7,6 +7,7 @@
   "rules": {
     "strict": 0,
     "no-console": "warn",
+    "no-debugger": "warn",
     "quotes": [
       "warn",
       "single"

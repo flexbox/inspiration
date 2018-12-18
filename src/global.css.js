@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+  body {
+    background-color: "#F5F7FA";
+  }
+
   /*! modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
 
   /* Document
@@ -25,8 +29,8 @@ export default createGlobalStyle`
   */
 
   :root {
-    -moz-tab-size: 4;
-    tab-size: 4;
+    -moz-tab-size: 2;
+    tab-size: 2;
   }
 
   /**
@@ -49,7 +53,6 @@ export default createGlobalStyle`
   body {
     margin: 0;
     padding: 3rem;
-    background-color: #eef0f2;
   }
 
   /**
