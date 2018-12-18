@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Box, Heading } from 'rebass'
+import { Box, Heading, Text } from 'rebass'
 
 const QuoteItem = quote => {
   return (
@@ -9,7 +9,9 @@ const QuoteItem = quote => {
       <Blockquote>
         <Title fontSize={[4, 5, 7]}>{quote.title}</Title>
         <hr />
-        <Cite>{quote.author}</Cite>
+        <Cite as="cite" fontSize={[2, 3, 5]}>
+          {quote.author}
+        </Cite>
       </Blockquote>
     </Section>
   )
@@ -31,27 +33,25 @@ const Blockquote = styled.blockquote`
     opacity: 0.8;
     margin: 2rem auto;
     border: 0;
-    border-bottom: 2px solid ${props => props.theme.borderColor};
+    border-bottom: 2px solid ${props => props.theme.colors.border};
   }
 `
 
 const Section = styled(Box)`
   max-width: 1024px;
-  background-color: ${props => props.theme.sectionBgColor};
+  background-color: ${props => props.theme.colors.sectionBg};
 `
 
 const Title = styled(Heading)`
-  font-family: 'Vidaloka', serif;
-  color: ${props => props.theme.sectionTextColor};
+  color: ${props => props.theme.colors.sectionText};
 `
 
-const Cite = styled.cite`
+const Cite = styled(Text)`
   text-transform: uppercase;
   font-style: normal;
-  font-size: 24px;
   opacity: 0.6;
   letter-spacing: 2px;
-  color: ${props => props.theme.sectionTextColor};
+  color: ${props => props.theme.colors.sectionText};
 `
 
 export default QuoteItem

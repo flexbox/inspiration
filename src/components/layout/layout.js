@@ -2,13 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import Head from 'components/head'
+import { ThemeProvider } from 'styled-components'
 import GlobalStyle from 'global.css.js'
+import theme from '../../themes/theme'
 
 const Layout = ({ children }) => (
   <>
     <GlobalStyle />
-    <Head />
-    {children}
+    <ThemeProvider theme={theme}>
+      <>
+        <Head />
+        {children}
+      </>
+    </ThemeProvider>
   </>
 )
 

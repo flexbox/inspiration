@@ -6,7 +6,7 @@ const share = item => (
   <Link
     href={`https://twitter.com/intent/tweet?text=${item.title} @${
       item.twitterName
-    } #inspiration 👉 ${item.pageUrl}`}
+    } ${item.pageUrl}`}
     target="_blank"
     rel="noopener noreferrer"
     p={2}

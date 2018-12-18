@@ -25,7 +25,7 @@ exports.onCreateWebpackConfig = ({
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
-    const quoteTemplate = path.resolve('src/pages/singleQuote.js')
+    const quoteTemplate = path.resolve('src/pages/single.js')
     resolve(
       graphql(
         `

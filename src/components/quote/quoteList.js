@@ -20,7 +20,7 @@ QuoteList.propTypes = {
 }
 
 const BlockquoteLink = styled(Link)`
-  color: ${props => props.theme.sectionTextColor};
+  color: ${props => props.theme.colors.sectionText};
   text-decoration: none;
   margin-bottom: 10rem;
 `
