@@ -35,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
                 node {
                   id
                   author
-                  url_reference
+                  twitter_name
                   title {
                     title
                   }
@@ -57,6 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
             context: {
               id: edge.node.id,
               author: edge.node.author,
+              twitterName: edge.node.twitter_name,
               title: edge.node.title.title,
             },
           })
