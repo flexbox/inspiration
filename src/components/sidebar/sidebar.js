@@ -6,11 +6,29 @@ import { Link } from 'gatsby'
 const sidebar = () => (
   <Flex pt={5} px={3} flexDirection="column">
     <Heading mb={3}>Inspiration</Heading>
-    <PageLink to="/">Last</PageLink>
-    <PageLink to="/all">All</PageLink>
+    <PageLink to="/" activeClassName="is-active">
+      Last
+    </PageLink>
+    <PageLink to="/all" activeClassName="is-active">
+      All
+    </PageLink>
   </Flex>
 )
 
-const PageLink = styled(Link)``
+const PageLink = styled(Link)`
+  display: flex;
+  text-decoration: none;
+  color: ${props => props.theme.colors.grayLight};
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  &:hover {
+    color: ${props => props.theme.colors.gray};
+  }
+  &.is-active {
+    color: ${props => props.theme.colors.text};
+    font-weight: bold;
+  }
+`
 
 export default sidebar

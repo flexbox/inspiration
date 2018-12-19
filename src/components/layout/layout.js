@@ -50,7 +50,6 @@ LayoutWithQuery.propTypes = {
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 150px 1fr;
-  grid-gap: 1rem;
   padding: 0;
   height: 100vh;
 `

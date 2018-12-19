@@ -22,6 +22,8 @@ export default {
     bg: palette.grayLighter,
     sectionBg: palette.black,
     sectionText: palette.white,
+    gray: palette.gray,
+    grayLight: palette.grayLight,
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -35,5 +37,9 @@ export default {
   Heading: {
     fontFamily: '"Vidaloka", serif',
     lineHeight: 1.25,
+    color: palette.gray,
+  },
+  Link: {
+    color: palette.blue,
   },
 }
