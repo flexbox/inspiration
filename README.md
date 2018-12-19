@@ -8,7 +8,7 @@ This project was bootstraped with [gatsbyjs](https://github.com/gatsbyjs/gatsby#
 
     cp .env.sample .env
     yarn
-    yarn develop
+    yarn start
 
 ## Author
 
