@@ -52,7 +52,7 @@ export default createGlobalStyle`
 
   body {
     margin: 0;
-    padding: 3rem;
+    padding: 0;
   }
 
   /**

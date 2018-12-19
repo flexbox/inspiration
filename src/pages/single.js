@@ -12,11 +12,11 @@ class singleQuote extends Component {
 
     return (
       <Layout>
+        <Flex justifyContent="flex-end">
+          <Share title={title} twitterName={twitterName} pageUrl={pageUrl} />
+        </Flex>
         <Flex justifyContent="center" alignItems="center">
           <QuoteItem title={title} author={author} />
-        </Flex>
-        <Flex justifyContent="center">
-          <Share title={title} twitterName={twitterName} pageUrl={pageUrl} />
         </Flex>
       </Layout>
     )
