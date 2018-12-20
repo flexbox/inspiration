@@ -49,9 +49,13 @@ LayoutWithQuery.propTypes = {
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 150px 1fr;
   padding: 0;
-  height: 100vh;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 550px) {
+    height: 100vh;
+    grid-template-columns: 150px 1fr;
+  }
 `
 
 const Content = styled(Box)`

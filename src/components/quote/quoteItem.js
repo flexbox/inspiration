@@ -7,7 +7,7 @@ const QuoteItem = quote => {
   return (
     <Section p={[3, 5]} width={1}>
       <Blockquote>
-        <Title fontSize={[4, 5, 7]}>{quote.title}</Title>
+        <Title fontSize={[4, 5, 6]}>{quote.title}</Title>
         <hr />
         <Cite as="cite" fontSize={[2, 3, 5]}>
           {quote.author}

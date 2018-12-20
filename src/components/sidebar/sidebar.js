@@ -4,8 +4,10 @@ import { Flex, Heading } from 'rebass'
 import { Link } from 'gatsby'
 
 const sidebar = () => (
-  <Flex pt={5} px={3} flexDirection="column">
-    <Heading mb={3}>Inspiration</Heading>
+  <Flex pt={[2, 5]} px={3} flexDirection="column">
+    <PageLink to="/" activeClassName="is-active">
+      <Heading mb={3}>Inspiration</Heading>
+    </PageLink>
     <PageLink to="/" activeClassName="is-active">
       Last
     </PageLink>

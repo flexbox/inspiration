@@ -23,6 +23,11 @@ const BlockquoteLink = styled(Link)`
   color: ${props => props.theme.colors.sectionText};
   text-decoration: none;
   margin-bottom: 10rem;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 1px 1px hsla(255, 0%, 0%, 0.1);
+  &:hover {
+    box-shadow: 0 4px 6px hsla(255, 0%, 0%, 0.1);
+  }
 `
 
 export default QuoteList

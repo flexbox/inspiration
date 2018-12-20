@@ -32,10 +32,12 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <Flex justifyContent="flex-end">
+      <Flex flexDirection="column" alignItems="center">
+        <QuoteItem title={title} author={author} />
+      </Flex>
+      <Flex justifyContent="center">
         <Share title={title} twitterName={twitterName} pageUrl={pageUrl} />
       </Flex>
-      <QuoteItem title={title} author={author} />
     </Layout>
   )
 }

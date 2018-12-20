@@ -20,8 +20,8 @@ export default {
     text: palette.black,
     border: palette.gray,
     bg: palette.grayLighter,
-    sectionBg: palette.black,
-    sectionText: palette.white,
+    sectionBg: palette.grayLighter,
+    sectionText: palette.black,
     gray: palette.gray,
     grayLight: palette.grayLight,
   },
@@ -37,7 +37,7 @@ export default {
   Heading: {
     fontFamily: '"Vidaloka", serif',
     lineHeight: 1.25,
-    color: palette.gray,
+    color: palette.grayLight,
   },
   Link: {
     color: palette.blue,
