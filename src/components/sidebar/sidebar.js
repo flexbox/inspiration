@@ -4,12 +4,15 @@ import { Flex, Heading } from 'rebass'
 import { Link } from 'gatsby'
 
 const sidebar = () => (
-  <Flex pt={[2, 5]} px={3} flexDirection="column">
-    <PageLink to="/" activeClassName="is-active">
+  <Flex pt={[2, 4]} pl={[4, 5]} flexDirection="column">
+    <PageLink to="/">
       <Heading mb={3}>Inspiration</Heading>
     </PageLink>
     <PageLink to="/" activeClassName="is-active">
       Last
+    </PageLink>
+    <PageLink to="/random" activeClassName="is-active">
+      Random
     </PageLink>
     <PageLink to="/all" activeClassName="is-active">
       All
@@ -23,6 +26,7 @@ const PageLink = styled(Link)`
   color: ${props => props.theme.colors.grayLight};
   padding-top: 1rem;
   padding-bottom: 1rem;
+  position: relative;
 
   &:hover {
     color: ${props => props.theme.colors.gray};
@@ -30,6 +34,11 @@ const PageLink = styled(Link)`
   &.is-active {
     color: ${props => props.theme.colors.text};
     font-weight: bold;
+    &::after {
+      position: absolute;
+      content: '•';
+      left: -15px;
+    }
   }
 `
 

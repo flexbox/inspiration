@@ -10,10 +10,10 @@ import theme from '../../themes/theme'
 
 const Layout = ({ children }) => (
   <>
-    <GlobalStyle />
     <ThemeProvider theme={theme}>
       <>
         <Head />
+        <GlobalStyle />
         <Wrapper>
           <Sidebar />
           <Content p={4}>{children}</Content>

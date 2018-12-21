@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   body {
-    background-color: "#F5F7FA";
+    background-color: #F5F7FA;
   }
 
   /*! modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */

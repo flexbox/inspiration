@@ -25,8 +25,8 @@ class singleQuote extends Component {
 
 singleQuote.propTypes = {
   pageContext: PropTypes.object.isRequired,
-  author: PropTypes.string,
   title: PropTypes.string,
+  twitterName: PropTypes.string,
   location: PropTypes.object.isRequired,
 }
 

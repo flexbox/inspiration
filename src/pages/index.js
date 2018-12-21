@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Layout from 'components/layout'
-import QuoteItem from 'components/quote/quoteItem'
 import { graphql } from 'gatsby'
 import { Flex } from 'rebass'
+import Layout from 'components/layout'
 import Share from '../components/share'
+import QuoteItem from 'components/quote/quoteItem'
 
 export const query = graphql`
   query HomepageQuery {
@@ -25,8 +25,8 @@ export const query = graphql`
 `
 
 const IndexPage = ({ data }) => {
-  const author = data.contentfulQuote.author
   const title = data.contentfulQuote.title.title
+  const author = data.contentfulQuote.author
   const twitterName = data.contentfulQuote.twitter_name
   const pageUrl = data.site.siteMetadata.siteUrl
 

@@ -20,7 +20,7 @@ export default {
     text: palette.black,
     border: palette.gray,
     bg: palette.grayLighter,
-    sectionBg: palette.grayLighter,
+    sectionBg: palette.white,
     sectionText: palette.black,
     gray: palette.gray,
     grayLight: palette.grayLight,

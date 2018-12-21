@@ -5,9 +5,9 @@ import { Box, Heading, Text } from 'rebass'
 
 const QuoteItem = quote => {
   return (
-    <Section p={[3, 5]} width={1}>
+    <Section p={[3, 5]}>
       <Blockquote>
-        <Title fontSize={[4, 5, 6]}>{quote.title}</Title>
+        <Title fontSize={[5, 5, 6]}>{quote.title}</Title>
         <hr />
         <Cite as="cite" fontSize={[2, 3, 5]}>
           {quote.author}
@@ -18,10 +18,14 @@ const QuoteItem = quote => {
 }
 
 QuoteItem.propTypes = {
-  link: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 }
+
+const Section = styled(Box)`
+  max-width: 800px;
+  background-color: ${props => props.theme.colors.sectionBg};
+`
 
 const Blockquote = styled.blockquote`
   text-align: center;
@@ -30,16 +34,11 @@ const Blockquote = styled.blockquote`
 
   hr {
     max-width: 100px;
-    opacity: 0.8;
+    opacity: 0.2;
     margin: 2rem auto;
     border: 0;
     border-bottom: 2px solid ${props => props.theme.colors.border};
   }
-`
-
-const Section = styled(Box)`
-  max-width: 1024px;
-  background-color: ${props => props.theme.colors.sectionBg};
 `
 
 const Title = styled(Heading)`
