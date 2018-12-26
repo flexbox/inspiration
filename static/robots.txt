@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://webcitation.davidl.fr/sitemap.xml
+Sitemap: https://inspiration.davidl.fr/sitemap.xml

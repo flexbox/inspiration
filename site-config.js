@@ -1,10 +1,10 @@
 const path = require('path')
 
 module.exports = {
-  siteTitle: 'Webcitation, votre dose quotidienne d’inspiration',
-  siteTitleShort: 'Webcitation',
+  siteTitle: 'Inspiration, les meilleures citation sélectionnées chaque Lundi',
+  siteTitleShort: 'Inspiration',
   siteDescription: 'Citations pour les travailleurs des internets',
-  siteUrl: 'https://webcitation.davidl.fr',
+  siteUrl: 'https://inspiration.davidl.fr',
   themeColor: '#55C2F8',
   backgroundColor: '#EEF0F2',
   pathPrefix: null,
