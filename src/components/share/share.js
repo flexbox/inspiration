@@ -15,7 +15,7 @@ const share = item => {
       rel="noopener noreferrer"
       p={4}
     >
-      Share on twitter
+      Share on Twitter
     </ShareLink>
   )
 }
