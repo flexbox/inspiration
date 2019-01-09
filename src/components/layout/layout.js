@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
         <Head />
         <GlobalStyle />
         <Wrapper>
-          <Sidebar />
+          <Sidebar p={6} />
           <Content p={4}>{children}</Content>
         </Wrapper>
       </>

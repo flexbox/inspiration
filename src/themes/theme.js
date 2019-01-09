@@ -42,4 +42,10 @@ export default {
   Link: {
     color: palette.blue,
   },
+  buttons: {
+    primary: {
+      color: palette.gray,
+      backgroundColor: palette.grayLight,
+    }
+  }
 }
