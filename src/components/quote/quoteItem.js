@@ -25,6 +25,14 @@ QuoteItem.propTypes = {
 const Section = styled(Box)`
   max-width: 800px;
   background-color: ${props => props.theme.colors.sectionBg};
+  border-radius: 3px;
+
+  transition: box-shadow 300ms ease-in-out;
+  border: 1px #e1e4e8 solid;
+  box-shadow: 0 1px 1px hsla(255, 0%, 0%, 0.1);
+  &:hover {
+    box-shadow: 0 1px 15px hsla(255, 0%, 0%, 0.1);
+  }
 `
 
 const Blockquote = styled.blockquote`

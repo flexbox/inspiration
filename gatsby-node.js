@@ -1,19 +1,7 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 const path = require('path')
 const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin')
 
-exports.onCreateWebpackConfig = ({
-  stage,
-  getConfig,
-  rules,
-  loaders,
-  actions,
-}) => {
+exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
@@ -39,6 +27,9 @@ exports.createPages = ({ graphql, actions }) => {
                   title {
                     title
                   }
+                  slug {
+                    slug
+                  }
                 }
               }
             }
@@ -52,7 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
         // Create pages
         result.data.allContentfulQuote.edges.forEach(edge => {
           createPage({
-            path: `${edge.node.id}`, // required
+            path: edge.node.slug.slug, // required
             component: quoteTemplate,
             context: {
               id: edge.node.id,
