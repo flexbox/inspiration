@@ -5480,6 +5480,7 @@ executable@^4.1.0:
 exenv@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 exif-parser@^0.1.12, exif-parser@^0.1.9:
   version "0.1.12"
@@ -6262,6 +6263,7 @@ gatsby-plugin-google-analytics@^2.0.8:
 gatsby-plugin-google-fonts@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-0.0.4.tgz#dc1402a71f27c3ae6caee10777d10adadf74bd7c"
+  integrity sha512-B9Q+dznk6UX2Fe7QyCTptiuLT+ZLtdFBs1lg5kvaVDyIlesEA2rSQqtB7IkEQflH91JPE4eAEM699JCPy7CFGg==
 
 gatsby-plugin-offline@^2.0.5:
   version "2.0.21"
@@ -8777,11 +8779,6 @@ lodash.every@^4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.every/-/lodash.every-4.6.0.tgz#eb89984bebc4364279bb3aefbbd1ca19bfa6c6a7"
   integrity sha1-64mYS+vENkJ5uzrvu9HKGb+mxqc=
 
-lodash.filter@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.filter/-/lodash.filter-4.6.0.tgz#668b1d4981603ae1cc5a6fa760143e480b4c4ace"
-  integrity sha1-ZosdSYFgOuHMWm+nYBQ+SAtMSs4=
-
 lodash.flatten@^4.2.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
@@ -8802,11 +8799,6 @@ lodash.isequal@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
-lodash.isfunction@^3.0.8:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
-  integrity sha512-AirXNj15uRIMMPihnkInB4i3NHeb4iBtNg9WRWuK2o31S+ePwwNmDPaTL3o7dTJ+VXNZim7rFs4rxN4YU1oUJw==
-
 lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
@@ -8821,11 +8813,6 @@ lodash.kebabcase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
   integrity sha1-hImxyw0p/4gZXM7KRI/21swpXDY=
-
-lodash.keys@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
-  integrity sha1-oIYCrBLk+4P5H8H7ejYKTZujUgU=
 
 lodash.map@^4.6.0:
   version "4.6.0"
@@ -8852,16 +8839,6 @@ lodash.mergewith@^4.6.1:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
   integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
 
-lodash.pick@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
-  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
-
-lodash.some@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
-  integrity sha1-G7nzFO9ri63tE7VJFpsqlF62jk0=
-
 lodash.template@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
@@ -8881,11 +8858,6 @@ lodash.toarray@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
   integrity sha1-JMS/zWsvuji/0FlNsRedjptlZWE=
-
-lodash.union@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
-  integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -11419,9 +11391,15 @@ react-error-overlay@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
 
+react-fast-compare@^2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
+  integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
 react-helmet@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.0.tgz#a81811df21313a6d55c5f058c4aeba5d6f3d97a7"
+  integrity sha1-qBgR3yExOm1VxfBYxK66XW89l6c=
   dependencies:
     deep-equal "^1.0.1"
     object-assign "^4.1.1"
@@ -11472,6 +11450,7 @@ react-pose@^3.3.0:
 react-side-effect@^1.1.0:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-1.1.5.tgz#f26059e50ed9c626d91d661b9f3c8bb38cd0ff2d"
+  integrity sha512-Z2ZJE4p/jIfvUpiUMRydEVpQRf2f8GMHczT6qLcARmX7QRb28JDBTpnM2g/i5y/p7ZDEXYGHWg0RbhikE+hJRw==
   dependencies:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
@@ -14192,20 +14171,13 @@ which@1, which@^1.2.10, which@^1.2.14, which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
-why-did-you-update@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/why-did-you-update/-/why-did-you-update-0.1.1.tgz#c73d361511fecd899056e9954ca9b1ab760d3097"
-  integrity sha512-CCi6k05CJ44wJEuE3D2LXtHO4YX7LjuG5cHrs8UAUWJAEDO/bWF1+/wT0gt4gLd3e69bKJJBbUk86bVdlT4E6A==
+why-did-you-update@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/why-did-you-update/-/why-did-you-update-1.0.6.tgz#2e2c6a04291e715755ecdff1ac8272f721df6f04"
+  integrity sha512-XVrdHhdrPBDuSW8b/uH6DCb1/0984qv8KElpE8NZiRvWZX8nw49av577+ZyIrxSNesi6r2cQEhpxQTKFFHTj8A==
   dependencies:
-    lodash.every "^4.6.0"
-    lodash.filter "^4.6.0"
-    lodash.isequal "^4.5.0"
-    lodash.isfunction "^3.0.8"
-    lodash.isstring "^4.0.1"
-    lodash.keys "^4.2.0"
-    lodash.pick "^4.4.0"
-    lodash.some "^4.6.0"
-    lodash.union "^4.6.0"
+    lodash "^4.17.11"
+    react-fast-compare "^2.0.3"
 
 wide-align@^1.1.0:
   version "1.1.3"
