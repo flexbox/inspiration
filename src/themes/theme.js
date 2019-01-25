@@ -46,6 +46,6 @@ export default {
     primary: {
       color: palette.gray,
       backgroundColor: palette.grayLight,
-    }
-  }
+    },
+  },
 }

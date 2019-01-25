@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  siteTitle: 'Inspiration, les meilleures citation sélectionnées chaque Lundi',
+  siteTitle: 'Inspiration, les meilleures citations sélectionnées chaque Lundi',
   siteTitleShort: 'Inspiration',
   siteDescription: 'Citations pour les travailleurs des internets',
   siteUrl: 'https://inspiration.davidl.fr',

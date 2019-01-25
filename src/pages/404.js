@@ -20,7 +20,7 @@ const NotFoundPage = () => (
 export default NotFoundPage
 
 const HomeLink = styled(Link)`
-  color: #ffffff;
-  text-decoration: none;
-  padding: 3rem 1rem;
+  &:hover {
+    text-decoration: none;
+  }
 `

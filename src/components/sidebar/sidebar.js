@@ -19,7 +19,11 @@ const sidebar = () => (
     <PageLink to="/all" activeClassName="is-active">
       All
     </PageLink>
-    <ButtonNew variant='primary' mt={3} onClick={() => window.open(typeformUrl, "_blank")}>
+    <ButtonNew
+      variant="primary"
+      mt={3}
+      onClick={() => window.open(typeformUrl, '_blank')}
+    >
       New Quote
     </ButtonNew>
   </Flex>

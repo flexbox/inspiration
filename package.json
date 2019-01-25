@@ -11,7 +11,8 @@
     "build:dir": "mkdir -p public/icons/",
     "build:favicons": "node scripts/favicons",
     "build": "npm run build:dir && npm run build:favicons && gatsby build",
-    "test": "ava **/*.test.js --verbose"
+    "test": "ava **/*.test.js --verbose",
+    "debug": "node --inspect-brk --no-lazy node_modules/gatsby/dist/bin/gatsby develop"
   },
   "dependencies": {
     "@reach/dialog": "^0.1.2",
