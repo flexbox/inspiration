@@ -22,6 +22,7 @@ const sidebar = () => (
     <ButtonNew
       variant="primary"
       mt={3}
+      mr={[4, 1]}
       onClick={() => window.open(typeformUrl, '_blank')}
     >
       New Quote

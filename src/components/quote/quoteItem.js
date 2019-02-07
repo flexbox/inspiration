@@ -2,18 +2,22 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Box, Heading, Text } from 'rebass'
+// import QuoteImage from './quoteImage'
 
 const QuoteItem = quote => {
   return (
-    <Section p={[3, 5]}>
-      <Blockquote>
-        <Title fontSize={[5, 5, 6]}>{quote.title}</Title>
-        <hr />
-        <Cite as="cite" fontSize={[2, 3, 5]}>
-          {quote.author}
-        </Cite>
-      </Blockquote>
-    </Section>
+    <>
+      <Section p={[3, 5]}>
+        <Blockquote>
+          <Title fontSize={[5, 5, 6]}>{quote.title}</Title>
+          <hr />
+          <Cite as="cite" fontSize={[2, 3, 5]}>
+            {quote.author}
+          </Cite>
+        </Blockquote>
+      </Section>
+      {/* <QuoteImage quote={quote} /> */}
+    </>
   )
 }
 
