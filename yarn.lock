@@ -4678,10 +4678,10 @@ dir-glob@^2.0.0:
     arrify "^1.0.1"
     path-type "^3.0.0"
 
-directory-named-webpack-plugin@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/directory-named-webpack-plugin/-/directory-named-webpack-plugin-4.0.0.tgz#b68220d4143c990a87ae8e09661bea700afe5f3c"
-  integrity sha512-cc7WL/Whhm9zM26uloLO+d2s5A6H4lro6rQAYxYdD2EcOjDW9IVEK/1CUQYn6y2/PwffVM7oYjefnjfiCoYr0g==
+directory-named-webpack-plugin@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/directory-named-webpack-plugin/-/directory-named-webpack-plugin-4.0.1.tgz#d5f422310bb446297ec422d3656dbf0921a6fa26"
+  integrity sha512-cULe7U64O9NM+O+L9gfcVKPo/A0pNEntsXTpuRHoCFMYE5pV9XQrJI9mJ8bgo0WKPmKPw/kozXfRolNNFJICCA==
   dependencies:
     enhanced-resolve "^4.0.0"
     object-assign "^4.1.0"
