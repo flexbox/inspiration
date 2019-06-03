@@ -14,6 +14,7 @@ const Layout = ({ children }) => (
       <>
         <Head />
         <GlobalStyle />
+        <Graaaadient />
         <Wrapper>
           <Sidebar p={6} />
           <Content p={4}>{children}</Content>
@@ -54,12 +55,18 @@ const Wrapper = styled.div`
 
   @media (min-width: 550px) {
     height: 100vh;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 250px 1fr;
   }
 `
 
 const Content = styled(Box)`
   overflow: auto;
+`
+
+const Graaaadient = styled(Box)`
+  height: 3rem;
+  width: 100%;
+  border-top: 3px solid ${props => props.theme.colors.black};
 `
 
 export default LayoutWithQuery

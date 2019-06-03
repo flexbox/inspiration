@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Heading, Button } from 'rebass'
+import { Flex, Heading, Text, Button } from 'rebass'
 import { Link } from 'gatsby'
 
 const typeformUrl = 'https://flexbox.typeform.com/to/oTw3YA'
 
 const sidebar = () => (
   <Flex pt={[2, 4]} pl={[4, 5]} flexDirection="column">
-    <PageLink to="/">
-      <Heading mb={3}>Inspiration</Heading>
-    </PageLink>
+    <Heading mb={3}>Inspiration</Heading>
+    <Text as="p">Curated quotes from tech conferences for entrepreneurs</Text>
+
     <PageLink to="/" activeClassName="is-active">
-      Last
+      Last Quote
     </PageLink>
     <PageLink to="/random" activeClassName="is-active">
       Random
@@ -31,6 +31,7 @@ const sidebar = () => (
 
 const PageLink = styled(Link)`
   display: flex;
+  flex-direction: columm;
   text-decoration: none;
   color: ${props => props.theme.colors.grayLight};
   padding-top: 1rem;

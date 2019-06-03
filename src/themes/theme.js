@@ -37,7 +37,11 @@ export default {
   Heading: {
     fontFamily: '"Vidaloka", serif',
     lineHeight: 1.25,
-    color: palette.grayLight,
+    color: palette.gray,
+  },
+  Text: {
+    color: palette.gray,
+    lineHeight: 1.8,
   },
   Link: {
     color: palette.blue,
