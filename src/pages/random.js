@@ -45,9 +45,7 @@ const RandomPage = ({ data }) => {
   const author = data.allContentfulQuote.edges[randomItem].node.author
   const twitterName =
     data.allContentfulQuote.edges[randomItem].node.twitter_name
-  const pageUrl = `${data.site.siteMetadata.siteUrl}/${
-    data.allContentfulQuote.edges[randomItem].node.slug.slug
-  }`
+  const pageUrl = `${data.site.siteMetadata.siteUrl}/${data.allContentfulQuote.edges[randomItem].node.slug.slug}`
 
   return (
     <Layout>
