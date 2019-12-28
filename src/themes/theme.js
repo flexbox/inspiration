@@ -40,6 +40,7 @@ export default {
   shadows: {
     small: '0 1px 1px hsla(255, 0%, 0%, 0.1)',
     large: '0 4px 6px hsla(255, 0%, 0%, 0.1)',
+    xlarge: '0 1px 15px hsla(255, 0%, 0%, 0.1)',
   },
   text: {
     heading: {

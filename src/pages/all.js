@@ -1,22 +1,23 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Layout from 'components/layout'
-import QuoteList from 'components/quote/quoteList'
+import { Flex } from 'rebass/styled-components'
 import { graphql } from 'gatsby'
+
+import Layout from 'components/layout'
+import PropTypes from 'prop-types'
+import QuoteItem from '../components/quote/quoteItem'
+import { QuoteLink } from '../components/quote/quoteLink'
 
 export const query = graphql`
   query allQuery {
     allContentfulQuote {
-      edges {
-        node {
-          id
-          author
-          title {
-            title
-          }
-          slug {
-            slug
-          }
+      nodes {
+        id
+        author
+        title {
+          title
+        }
+        slug {
+          slug
         }
       }
     }
@@ -25,7 +26,19 @@ export const query = graphql`
 
 const AllPage = ({ data }) => (
   <Layout>
-    <QuoteList items={data.allContentfulQuote.edges} />
+    <Flex flexDirection="column" alignItems="center">
+      {data.allContentfulQuote.nodes.map(item => {
+        return (
+          <QuoteLink
+            to={`/${item.slug.slug}`}
+            key={item.id}
+            style={{ marginBottom: 300 }}
+          >
+            <QuoteItem title={item.title.title} author={item.author} />
+          </QuoteLink>
+        )
+      })}
+    </Flex>
   </Layout>
 )
 

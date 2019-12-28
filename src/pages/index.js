@@ -5,6 +5,7 @@ import { Flex } from 'rebass/styled-components'
 import Layout from 'components/layout'
 import Share from '../components/share'
 import QuoteItem from 'components/quote/quoteItem'
+import { QuoteLink } from '../components/quote/quoteLink'
 
 export const query = graphql`
   query HomepageQuery {
@@ -14,6 +15,9 @@ export const query = graphql`
       twitter_name
       title {
         title
+      }
+      slug {
+        slug
       }
     }
     site {
@@ -28,15 +32,18 @@ const IndexPage = ({ data }) => {
   const title = data.contentfulQuote.title.title
   const author = data.contentfulQuote.author
   const twitterName = data.contentfulQuote.twitter_name
-  const pageUrl = data.site.siteMetadata.siteUrl
+  const pageUrl = `/${data.contentfulQuote.slug.slug}`
+  const shareUrl = data.site.siteMetadata.siteUrl
 
   return (
     <Layout>
       <Flex flexDirection="column" alignItems="center">
-        <QuoteItem title={title} author={author} />
+        <QuoteLink to={pageUrl}>
+          <QuoteItem title={title} author={author} />
+        </QuoteLink>
       </Flex>
       <Flex justifyContent="center">
-        <Share title={title} twitterName={twitterName} pageUrl={pageUrl} />
+        <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
       </Flex>
     </Layout>
   )
