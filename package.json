@@ -40,7 +40,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-pose": "^3.3.0",
-    "rebass": "^3.0.0-12",
+    "rebass": "^4.0.7",
     "styled-components": "^4.0.0-beta.7"
   },
   "devDependencies": {

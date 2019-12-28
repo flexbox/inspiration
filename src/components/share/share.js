@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import { Link } from 'rebass'
+import { Link } from 'rebass/styled-components'
 
 const share = item => {
   const title = item.title
@@ -9,22 +8,16 @@ const share = item => {
   const pageUrl = item.pageUrl
 
   return (
-    <ShareLink
+    <Link
       href={`https://twitter.com/intent/tweet?text=${title} ${twitterName} ${pageUrl}`}
       target="_blank"
       rel="noopener noreferrer"
       p={4}
     >
       Share on Twitter
-    </ShareLink>
+    </Link>
   )
 }
-
-const ShareLink = styled(Link)`
-  &:hover {
-    text-decoration: none;
-  }
-`
 
 share.propTypes = {
   title: PropTypes.string.isRequired,

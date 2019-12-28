@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from 'components/layout'
 import styled from 'styled-components'
-import { Heading } from 'rebass'
+import { Heading } from 'rebass/styled-components'
 
 const NotFoundPage = () => (
   <Layout>

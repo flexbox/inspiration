@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import { Flex } from 'rebass'
+import { Flex } from 'rebass/styled-components'
 import Layout from 'components/layout'
 import Share from '../components/share'
 import QuoteItem from 'components/quote/quoteItem'

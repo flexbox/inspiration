@@ -7,13 +7,14 @@ const palette = {
   white: '#FFFFFF',
   pink: '#E8368F',
   red: '#EF4E4E',
+  blueLight: '#C8EEFF',
   blue: '#2BB0ED',
+  blueDark: '#1F80AD',
   yellow: '#F7C948',
   green: '#3EBD93',
 }
 
 export default {
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   colors: {
     primary: palette.blue,
     secondary: palette.pink,
@@ -25,31 +26,64 @@ export default {
     gray: palette.gray,
     grayLight: palette.grayLight,
   },
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
+    heading: 'Vidaloka, serif',
     sans: 'system-ui, sans-serif',
     mono: 'Menlo, monospace',
   },
+  lineHeights: {
+    body: 1.8,
+    heading: 1.25,
+  },
   shadows: {
-    small: '0 0 4px rgba(0, 0, 0, .125)',
-    large: '0 0 24px rgba(0, 0, 0, .125)',
+    small: '0 1px 1px hsla(255, 0%, 0%, 0.1)',
+    large: '0 4px 6px hsla(255, 0%, 0%, 0.1)',
   },
-  Heading: {
-    fontFamily: '"Vidaloka", serif',
-    lineHeight: 1.25,
-    color: palette.gray,
+  text: {
+    heading: {
+      color: palette.gray,
+    },
+    display: {
+      color: palette.gray,
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
+    },
+    caps: {
+      textTransform: 'uppercase',
+      letterSpacing: '0.1em',
+    },
   },
-  Text: {
-    color: palette.gray,
-    lineHeight: 1.8,
-  },
-  Link: {
+  link: {
     color: palette.blue,
+    '&:hover': {
+      textDecoration: 'none',
+    },
   },
   buttons: {
     primary: {
       color: palette.gray,
       backgroundColor: palette.grayLight,
+      boxShadow: 'small',
+      fontWeight: 'bold',
+      transition: 'box-shadow 0.3s ease-in-out',
+      '&:hover': {
+        color: palette.grayDark,
+        cursor: 'pointer',
+        boxShadow: 'large',
+      },
+    },
+    secondary: {
+      variant: 'buttons.primary',
+      color: palette.blueLight,
+      bg: palette.blue,
+      '&:hover': {
+        color: palette.white,
+        cursor: 'pointer',
+        boxShadow: 'large',
+      },
     },
   },
 }

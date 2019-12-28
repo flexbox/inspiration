@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Box, Heading, Text } from 'rebass'
+import { Box, Heading, Text } from 'rebass/styled-components'
 
 const QuoteItem = quote => {
   return (
