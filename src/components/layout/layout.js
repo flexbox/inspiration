@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Head from 'components/head'
 import Sidebar from 'components/sidebar'
 import styled, { ThemeProvider } from 'styled-components'
-import { Box } from 'rebass'
+import { Box } from 'rebass/styled-components'
 import GlobalStyle from 'global.css.js'
 import theme from '../../themes/theme'
 

@@ -4,6 +4,11 @@
     "browser": true,
     "node": true
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "strict": 0,
     "no-console": "warn",

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Box, Heading, Text } from 'rebass'
+import { Box, Heading, Text } from 'rebass/styled-components'
 
 const QuoteItem = quote => {
   return (
@@ -25,13 +25,12 @@ QuoteItem.propTypes = {
 const Section = styled(Box)`
   max-width: 800px;
   background-color: ${props => props.theme.colors.sectionBg};
-  border-radius: 3px;
+  border-radius: 5px;
 
   transition: box-shadow 300ms ease-in-out;
-  border: 1px #e1e4e8 solid;
-  box-shadow: 0 1px 1px hsla(255, 0%, 0%, 0.1);
+  box-shadow: ${props => props.theme.shadows.small};
   &:hover {
-    box-shadow: 0 1px 15px hsla(255, 0%, 0%, 0.1);
+    box-shadow: ${props => props.theme.shadows.xlarge};
   }
 `
 

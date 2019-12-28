@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Layout from 'components/layout'
-import { Flex } from 'rebass'
+import { Flex } from 'rebass/styled-components'
 import Share from '../components/share'
 import QuoteItem from '../components/quote/quoteItem'
 

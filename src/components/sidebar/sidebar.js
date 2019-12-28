@@ -1,14 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Heading, Text, Button } from 'rebass'
+import { Flex, Heading, Text, Button } from 'rebass/styled-components'
 import { Link } from 'gatsby'
 
-const typeformUrl = 'https://flexbox.typeform.com/to/oTw3YA'
+const contributeEmail =
+  'mailto:dleuliette@gmail.com?subject=New%20quote&body=title:%20author_name:%20author_twitter:'
+
+const frameLink = 'https://displate.com/flexbox/displates'
 
 const sidebar = () => (
-  <Flex pt={[2, 4]} pl={[4, 5]} flexDirection="column">
+  <Flex pt={[2, 4]} px={4} flexDirection="column">
     <Heading mb={3}>Inspiration</Heading>
-    <Text as="p">Curated quotes from tech conferences for entrepreneurs</Text>
+    <Text
+      mb={4}
+      as="p"
+      sx={{
+        lineHeight: 'body',
+        color: 'gray',
+      }}
+    >
+      Curated quotes from tech conferences for entrepreneurs
+    </Text>
 
     <PageLink to="/" activeClassName="is-active">
       Last Quote
@@ -19,13 +31,19 @@ const sidebar = () => (
     <PageLink to="/all" activeClassName="is-active">
       All
     </PageLink>
-    <ButtonNew
+    <Button
       variant="primary"
-      mt={3}
-      onClick={() => window.open(typeformUrl, '_blank')}
+      my={3}
+      onClick={() => window.open(contributeEmail, '_blank')}
     >
-      New Quote
-    </ButtonNew>
+      Contribute by email
+    </Button>
+    <Button
+      variant="secondary"
+      onClick={() => window.open(frameLink, '_blank')}
+    >
+      Buy a frame
+    </Button>
   </Flex>
 )
 
@@ -37,6 +55,7 @@ const PageLink = styled(Link)`
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
+  font-weight: bold;
 
   &:hover {
     color: ${props => props.theme.colors.gray};
@@ -49,16 +68,6 @@ const PageLink = styled(Link)`
       content: '•';
       left: -15px;
     }
-  }
-`
-
-const ButtonNew = styled(Button)`
-  transition: box-shadow 0.3s ease-in-out;
-  box-shadow: 0 1px 1px hsla(255, 0%, 0%, 0.1);
-  &:hover {
-    color: ${props => props.theme.colors.text};
-    box-shadow: 0 4px 6px hsla(255, 0%, 0%, 0.1);
-    cursor: pointer;
   }
 `
 
