@@ -34,6 +34,11 @@ const Head = ({
     <meta content={siteDescription} property="og:description" />
     <meta content={siteDescription} name="twitter:description" />
 
+    <meta
+      name="google-site-verification"
+      content="DU4ZdQ7Hi6eaG1Kpy6J9wpZaWmdi6Q7IajNJwNppif4"
+    />
+
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta
       content="black-translucent"
