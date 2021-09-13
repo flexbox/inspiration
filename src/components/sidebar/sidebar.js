@@ -44,16 +44,6 @@ const sidebar = () => (
     >
       Buy a frame
     </Button>
-    <Text
-      mt={4}
-      as="p"
-      sx={{
-        lineHeight: 'body',
-        color: 'gray',
-      }}
-    >
-      Bought to you by <a href="https://twitter.com/flexbox_">flexbox_</a>
-    </Text>
   </Flex>
 )
 
