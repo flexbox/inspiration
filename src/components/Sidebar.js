@@ -8,7 +8,7 @@ const contributeEmail =
 
 const frameLink = 'https://displate.com/flexbox/displates'
 
-const sidebar = () => (
+const Sidebar = () => (
   <Flex className="m-auto content-center justify-content-center sm:m-0 p-8 pt-16 w-64 h-screen bg-gray-100">
     <Heading
       className="font-vidaloka flex flex-col text-gray-500 text-2xl font-vida"
@@ -78,4 +78,4 @@ const PageLink = styled(Link)`
   font-weight: bold;
 `
 
-export default sidebar
+export default Sidebar
