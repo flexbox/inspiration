@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        vidaloka: "'Vidaloka',serif",
+      },
+    },
   },
   variants: {
     extend: {},

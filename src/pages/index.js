@@ -43,7 +43,12 @@ const IndexPage = ({ data }) => {
         </QuoteLink>
       </Flex>
       <Flex className="flex justify-center">
-        <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
+        <Share
+          className="font-vidaloka"
+          title={title}
+          twitterName={twitterName}
+          pageUrl={shareUrl}
+        />
       </Flex>
     </Layout>
   )

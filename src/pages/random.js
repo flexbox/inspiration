@@ -49,12 +49,12 @@ const RandomPage = ({ data }) => {
 
   return (
     <Layout>
-      <Flex flexDirection="column" alignItems="center">
+      <Flex className="m-auto flex flex-col items-center">
         <QuoteLink to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>
       </Flex>
-      <Flex justifyContent="center">
+      <Flex className="m-auto flex flex-col items-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
       </Flex>
     </Layout>

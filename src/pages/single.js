@@ -12,7 +12,7 @@ class singleQuote extends Component {
 
     return (
       <Layout>
-        <Flex flexDirection="column" alignItems="center">
+        <Flex className="m-auto flex flex-col items-center">
           <QuoteItem title={title} author={author} />
         </Flex>
         <Flex justifyContent="center">

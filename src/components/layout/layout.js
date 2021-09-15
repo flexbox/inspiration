@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
           <Sidebar p={6} />
           <Content className="overflow-auto bg-gray-100 w-full" p={4}>
             {children}
-            </Content>
+          </Content>
         </Wrapper>
       </>
     </ThemeProvider>
@@ -45,8 +45,6 @@ const LayoutWithQuery = props => (
     render={data => <Layout data={data} {...props} />}
   />
 )
-
-
 
 const Wrapper = styled.div`
   display: grid;
