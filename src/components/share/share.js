@@ -8,7 +8,7 @@ const share = item => {
 
   return (
     <Link
-      className="underline pb-4 text-blue-500"
+      className="underline p-4 pb-4 text-blue-500"
       href={`https://twitter.com/intent/tweet?text=${title} ${twitterName} ${pageUrl}`}
       target="_blank"
       rel="noopener noreferrer"

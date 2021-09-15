@@ -17,7 +17,7 @@ const sidebar = () => (
       Inspiration
     </Heading>
     <Text
-      className="flex flex-col text-gray-500 mt-6 mb-12"
+      className="flex flex-col text-gray-500 mt-6 mb-12 leading-7"
       mb={4}
       as="p"
       sx={{
@@ -50,7 +50,7 @@ const sidebar = () => (
       All
     </PageLink>
     <Button
-      class="flex flex-col mt-2 mb-4 bg-gray-300 text-gray-400 hover:text-gray-500 font-bold py-2 px-4 rounded w-full"
+      class="flex flex-col mt-2 mb-4 bg-gray-300 text-gray-500 hover:text-black font-bold py-2 px-4 rounded w-full"
       variant="primary"
       my={3}
       onClick={() => window.open(contributeEmail, '_blank')}
@@ -58,7 +58,7 @@ const sidebar = () => (
       Contribute by email
     </Button>
     <Button
-      class="flex flex-col mt-4 mb-4 bg-blue-400 hover:text-white text-gray-300 font-bold py-2 px-4 rounded w-full"
+      class="flex flex-col mt-4 mb-4 bg-blue-500 hover:text-white text-gray-300 font-bold py-2 px-4 rounded w-full"
       variant="secondary"
       onClick={() => window.open(frameLink, '_blank')}
     >
