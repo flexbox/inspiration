@@ -26,7 +26,7 @@ export const query = graphql`
 
 const AllPage = ({ data }) => (
   <Layout>
-    <Flex flexDirection="column" alignItems="center">
+    <Flex className="m-auto flex flex-col items-center">
       {data.allContentfulQuote.nodes.map(item => {
         return (
           <QuoteLink
@@ -34,7 +34,11 @@ const AllPage = ({ data }) => (
             key={item.id}
             style={{ marginBottom: 300 }}
           >
-            <QuoteItem title={item.title.title} author={item.author} />
+            <QuoteItem
+              className="w-6/12 h-4/12"
+              title={item.title.title}
+              author={item.author}
+            />
           </QuoteLink>
         )
       })}

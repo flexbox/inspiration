@@ -5,11 +5,19 @@ import { Box, Heading, Text } from 'rebass/styled-components'
 
 const QuoteItem = quote => {
   return (
-    <Section p={[3, 5]}>
-      <Blockquote>
-        <Title fontSize={[5, 5, 6]}>{quote.title}</Title>
-        <hr />
-        <Cite as="cite" fontSize={[2, 3, 5]}>
+    <Section className="max-w-screen-md rounded bg-white shadow transition duration-500 ease-in-out transform hover:shadow hover:scale-4">
+      <Blockquote className="text-center m-4 p-4">
+        <Title className="font-vidaloka font-semibold pt-12 pb-6 text-5xl">
+          {quote.title}
+        </Title>
+        <hr
+          className="flex m-auto my-4 p-0 border-0 border-b-2"
+          width="100px"
+        />
+        <Cite
+          className="uppercase opacity-6 tracking-wider pt-8 pb-12"
+          as="cite"
+        >
           {quote.author}
         </Cite>
       </Blockquote>

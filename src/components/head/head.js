@@ -152,7 +152,12 @@ const Head = ({
       sizes="16x16"
       type="image/png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap"
+      rel="stylesheet"
+    />
     <script type="application/ld+json">
       {JSON.stringify(
         schemaGenerator({

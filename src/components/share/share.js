@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'rebass/styled-components'
 
 const share = item => {
@@ -9,6 +8,7 @@ const share = item => {
 
   return (
     <Link
+      className="underline p-4 pb-4 text-blue-500"
       href={`https://twitter.com/intent/tweet?text=${title} ${twitterName} ${pageUrl}`}
       target="_blank"
       rel="noopener noreferrer"
@@ -17,12 +17,6 @@ const share = item => {
       Share on Twitter
     </Link>
   )
-}
-
-share.propTypes = {
-  title: PropTypes.string.isRequired,
-  twitterName: PropTypes.string,
-  pageUrl: PropTypes.string.isRequired,
 }
 
 export default share

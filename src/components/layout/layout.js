@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import Head from 'components/head'
-import Sidebar from 'components/sidebar'
+import Sidebar from 'components/Sidebar'
 import styled, { ThemeProvider } from 'styled-components'
 import { Box } from 'rebass/styled-components'
 import GlobalStyle from 'global.css.js'
@@ -10,14 +10,16 @@ import theme from '../../themes/theme'
 
 const Layout = ({ children }) => (
   <>
-    <ThemeProvider theme={theme}>
+    <ThemeProvider className="bg-gray-100" theme={theme}>
       <>
         <Head />
         <GlobalStyle />
-        <Graaaadient />
-        <Wrapper>
+        <Graaaadient className="w-full border-t-3 border-solid" />
+        <Wrapper className="flex">
           <Sidebar p={6} />
-          <Content p={4}>{children}</Content>
+          <Content className="overflow-auto bg-gray-100 w-full" p={4}>
+            {children}
+          </Content>
         </Wrapper>
       </>
     </ThemeProvider>
@@ -43,10 +45,6 @@ const LayoutWithQuery = props => (
     render={data => <Layout data={data} {...props} />}
   />
 )
-
-LayoutWithQuery.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 const Wrapper = styled.div`
   display: grid;
