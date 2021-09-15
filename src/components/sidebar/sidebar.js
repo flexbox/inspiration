@@ -38,14 +38,14 @@ const sidebar = () => (
     <PageLink
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/random"
-      activeClassName="bg-red-500"
+      activeClassName="text-black"
     >
       Random
     </PageLink>
     <PageLink
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/all"
-      activeClassName="bg-red-500"
+      activeClassName="text-black"
     >
       All
     </PageLink>
