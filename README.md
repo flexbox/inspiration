@@ -1,4 +1,4 @@
-# Inspiration • [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) [![CircleCI](https://circleci.com/gh/flexbox/inspiration.svg?style=svg)](https://circleci.com/gh/flexbox/inspiration)
+# Inspiration • [![Netlify Status](https://api.netlify.com/api/v1/badges/bb39eb1b-1bf4-4087-957b-f879e2ac6911/deploy-status)](https://app.netlify.com/sites/inspirationquote/deploys)
 
 This project was bootstraped with [gatsbyjs](https://github.com/gatsbyjs/gatsby#readme)
 
