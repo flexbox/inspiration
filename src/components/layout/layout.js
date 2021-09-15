@@ -10,14 +10,14 @@ import theme from '../../themes/theme'
 
 const Layout = ({ children }) => (
   <>
-    <ThemeProvider theme={theme}>
+    <ThemeProvider className="bg-gray-100" theme={theme}>
       <>
         <Head />
         <GlobalStyle />
-        <Graaaadient />
-        <Wrapper>
+        <Graaaadient className='w-full border-t-3 border-solid' />
+        <Wrapper className="flex">
           <Sidebar p={6} />
-          <Content p={4}>{children}</Content>
+          <Content className='overflow-auto bg-gray-100 w-full' p={4}>{children}</Content>
         </Wrapper>
       </>
     </ThemeProvider>

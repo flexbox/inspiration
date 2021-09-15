@@ -8,7 +8,7 @@ const share = item => {
   const pageUrl = item.pageUrl
 
   return (
-    <Link
+    <Link className="underline pb-4 text-blue-500"
       href={`https://twitter.com/intent/tweet?text=${title} ${twitterName} ${pageUrl}`}
       target="_blank"
       rel="noopener noreferrer"
