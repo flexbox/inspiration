@@ -9,8 +9,14 @@ const contributeEmail =
 const frameLink = 'https://displate.com/flexbox/displates'
 
 const sidebar = () => (
-  <Flex className="m-auto content-center justify-content-center sm:m-0 p-8 w-56 h-screen bg-gray-100" pt={[2, 4]} px={4} flexDirection="column">
-    <Heading className="flex flex-col text-gray-500 text-3xl font-vida" mb={3}>Inspiration</Heading>
+  <Flex
+   className="m-auto content-center justify-content-center sm:m-0 p-8 w-64 h-screen bg-gray-100"
+    pt={[2, 4]} 
+    px={4}
+    >
+    <Heading className="flex flex-col text-gray-500 text-3xl font-vida" mb={3}>
+      Inspiration
+      </Heading>
     <Text className="flex flex-col text-gray-400 mt-6 mb-12"
       mb={4}
       as="p"
@@ -22,7 +28,11 @@ const sidebar = () => (
       Curated quotes from tech conferences for entrepreneurs
     </Text>
 
-    <PageLink className="flex flex-col pt-2 pb-4 relative font-bold" to="/" activeClassName="is-active">
+    <PageLink 
+    className="flex flex-col pt-2 pb-4 relative font-bold"
+    to="/"
+    activeClassName="is-active"
+    >
       Last Quote
     </PageLink>
     <PageLink className="flex flex-col pt-2 pb-4 relative font-bold" to="/random" activeClassName="is-active">

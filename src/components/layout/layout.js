@@ -14,10 +14,12 @@ const Layout = ({ children }) => (
       <>
         <Head />
         <GlobalStyle />
-        <Graaaadient className='w-full border-t-3 border-solid' />
+        <Graaaadient className="w-full border-t-3 border-solid" />
         <Wrapper className="flex">
           <Sidebar p={6} />
-          <Content className='overflow-auto bg-gray-100 w-full' p={4}>{children}</Content>
+          <Content className="overflow-auto bg-gray-100 w-full" p={4}>
+            {children}
+            </Content>
         </Wrapper>
       </>
     </ThemeProvider>
@@ -44,9 +46,7 @@ const LayoutWithQuery = props => (
   />
 )
 
-LayoutWithQuery.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+
 
 const Wrapper = styled.div`
   display: grid;
