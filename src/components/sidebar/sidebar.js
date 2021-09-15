@@ -29,21 +29,21 @@ const sidebar = () => (
     </Text>
 
     <PageLink
-      className="flex flex-col pt-2 pb-4 relative font-bold"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/"
-      activeClassName="bg-red-500"
+      activeClassName="text-black"
     >
       Last Quote
     </PageLink>
     <PageLink
-      className="flex flex-col pt-2 pb-4 relative font-bold"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/random"
       activeClassName="bg-red-500"
     >
       Random
     </PageLink>
     <PageLink
-      className="flex flex-col pt-2 pb-4 relative font-bold"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/all"
       activeClassName="bg-red-500"
     >
