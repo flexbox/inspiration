@@ -11,7 +11,7 @@ const QuoteItem = quote => {
     >
       <Blockquote className="text-center m-4 p-0">
         <Title
-          className="font-vidaloka font-semibold pt-4"
+          className="font-vidaloka font-semibold pt-12 pb-6 text-5xl"
           fontSize={[5, 5, 6]}
         >
           {quote.title}
@@ -21,7 +21,7 @@ const QuoteItem = quote => {
           width="100px"
         />
         <Cite
-          className="uppercase font-bold opacity-6 tracking-wider pb-4"
+          className="uppercase opacity-6 tracking-wider pt-8 pb-12"
           as="cite"
           fontSize={[2, 3, 5]}
         >

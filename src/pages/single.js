@@ -15,7 +15,7 @@ class singleQuote extends Component {
         <Flex className="m-auto flex flex-col items-center">
           <QuoteItem title={title} author={author} />
         </Flex>
-        <Flex justifyContent="center">
+        <Flex className="m-auto flex flex-col items-center">
           <Share title={title} twitterName={twitterName} pageUrl={pageUrl} />
         </Flex>
       </Layout>
