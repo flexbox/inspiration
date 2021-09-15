@@ -12,7 +12,8 @@
     "build:favicons": "node scripts/favicons",
     "build": "npm run build:dir && npm run build:favicons && gatsby build",
     "test": "ava **/*.test.js --verbose",
-    "debug": "node --inspect-brk --no-lazy node_modules/gatsby/dist/bin/gatsby develop"
+    "debug": "node --inspect-brk --no-lazy node_modules/gatsby/dist/bin/gatsby develop",
+    "cache:clear": "rm -rf node_modules && rm -rf .cache"
   },
   "dependencies": {
     "@reach/dialog": "^0.1.2",
@@ -20,14 +21,14 @@
     "@reach/visually-hidden": "^0.1.1",
     "babel-plugin-styled-components": "^1.7.1",
     "dotenv": "^6.0.0",
-    "gatsby": "^2.18.17",
+    "gatsby": "^3.13.0",
     "gatsby-image": "^2.0.5",
     "gatsby-plugin-google-analytics": "^2.0.8",
     "gatsby-plugin-google-fonts": "^0.0.4",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-react-svg": "^2.0.0",
-    "gatsby-plugin-sharp": "^2.0.5",
+    "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-sitemap": "^2.0.1",
     "gatsby-plugin-styled-components": "^3.0.0",
     "gatsby-plugin-webpack-size": "^0.0.2",
