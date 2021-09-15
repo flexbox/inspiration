@@ -16,7 +16,7 @@
     "cache:clear": "rm -rf node_modules && rm -rf .cache"
   },
   "dependencies": {
-    "autoprefixer": "10.2.6",
+    "autoprefixer": "^10.3.4",
     "babel-plugin-styled-components": "^1.7.1",
     "dotenv": "^6.0.0",
     "gatsby": "^3.13.0",
