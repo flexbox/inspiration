@@ -16,9 +16,6 @@
     "cache:clear": "rm -rf node_modules && rm -rf .cache"
   },
   "dependencies": {
-    "@reach/dialog": "^0.1.2",
-    "@reach/router": "^1.1.1",
-    "@reach/visually-hidden": "^0.1.1",
     "babel-plugin-styled-components": "^1.7.1",
     "dotenv": "^6.0.0",
     "gatsby": "^3.13.0",

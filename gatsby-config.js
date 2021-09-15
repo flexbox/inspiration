@@ -26,20 +26,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID || '',
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || '',
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: ['Vidaloka'],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID || '',
       },
     },
   ],
