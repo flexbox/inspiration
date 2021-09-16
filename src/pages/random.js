@@ -48,12 +48,12 @@ const RandomPage = ({ data }) => {
 
   return (
     <Layout>
-      <div id="Flex" className="pt-8 m-auto flex flex-col items-center">
+      <div className="pt-8 m-auto flex flex-col items-center">
         <QuoteLink to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>
       </div>
-      <div id="flex" className="m-auto flex flex-col items-center">
+      <div className="m-auto flex flex-col items-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
       </div>
     </Layout>

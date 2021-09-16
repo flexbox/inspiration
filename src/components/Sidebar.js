@@ -3,21 +3,10 @@ import { Link } from 'gatsby'
 
 const Sidebar = () => (
   <div className="m-auto content-center justify-content-center sm:m-0 p-8 pt-16 w-64 h-screen bg-gray-100">
-    <div
-      className="font-vidaloka flex flex-col text-gray-500 text-2xl font-vida"
-      mb={3}
-    >
+    <div className="font-vidaloka flex flex-col text-gray-500 text-2xl font-vida">
       Inspiration
     </div>
-    <div
-      className="flex flex-col text-gray-500 mt-6 mb-12 leading-7"
-      mb={4}
-      as="p"
-      sx={{
-        lineHeight: 'body',
-        color: 'gray',
-      }}
-    >
+    <div className="flex flex-col text-gray-500 mt-6 mb-12 leading-7">
       Curated quotes from tech conferences for entrepreneurs
     </div>
 

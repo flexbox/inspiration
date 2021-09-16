@@ -36,12 +36,12 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <div id="flex" className="pt-8 m-auto flex flex-col items-center">
+      <div className="pt-8 m-auto flex flex-col items-center">
         <QuoteLink className="m-auto justify-center" to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>
       </div>
-      <div id="flex" className="flex justify-center">
+      <div className="flex justify-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
       </div>
     </Layout>

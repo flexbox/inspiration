@@ -4,9 +4,7 @@ import Layout from 'components/layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <div id="Heading" as="h1">
-      NOT FOUND
-    </div>
+    <h1>NOT FOUND</h1>
     <p>
       Sorry, this page does not exist anymore{' '}
       <span role="img" aria-label="the sadness">

@@ -11,10 +11,10 @@ class singleQuote extends Component {
 
     return (
       <Layout>
-        <div id="flex" className="pt-24 m-auto flex flex-col items-center">
+        <div className="pt-24 m-auto flex flex-col items-center">
           <QuoteItem title={title} author={author} />
         </div>
-        <div id="flex" className="m-auto flex flex-col items-center">
+        <div className="m-auto flex flex-col items-center">
           <Share title={title} twitterName={twitterName} pageUrl={pageUrl} />
         </div>
       </Layout>
