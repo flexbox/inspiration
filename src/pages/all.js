@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from 'components/layout'
 import PropTypes from 'prop-types'
-import QuoteItem from '../components/quote/quoteItem'
+import QuoteItem from '../components/quoteItem'
 import { QuoteLink } from '../components/quote/quoteLink'
 
 export const query = graphql`
