@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import { Flex } from 'rebass/styled-components'
 import Layout from 'components/layout'
 import Share from '../components/share'
-import QuoteItem from 'components/quote/quoteItem'
+import QuoteItem from '../components/quoteItem'
 import { QuoteLink } from '../components/quote/quoteLink'
 
 export const query = graphql`
@@ -49,14 +48,14 @@ const RandomPage = ({ data }) => {
 
   return (
     <Layout>
-      <Flex className="m-auto flex flex-col items-center">
+      <div className="pt-8 m-auto flex flex-col items-center">
         <QuoteLink to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>
-      </Flex>
-      <Flex className="m-auto flex flex-col items-center">
+      </div>
+      <div className="m-auto flex flex-col items-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
-      </Flex>
+      </div>
     </Layout>
   )
 }

@@ -1,10 +1,9 @@
 import React from 'react'
-import { Flex } from 'rebass/styled-components'
 import { graphql } from 'gatsby'
 
 import Layout from 'components/layout'
 import PropTypes from 'prop-types'
-import QuoteItem from '../components/quote/quoteItem'
+import QuoteItem from '../components/quoteItem'
 import { QuoteLink } from '../components/quote/quoteLink'
 
 export const query = graphql`
@@ -26,7 +25,7 @@ export const query = graphql`
 
 const AllPage = ({ data }) => (
   <Layout>
-    <Flex className="m-auto flex flex-col items-center">
+    <div className="overflow-y-scroll h-screen pt-8 m-auto flex flex-col items-center">
       {data.allContentfulQuote.nodes.map(item => {
         return (
           <QuoteLink
@@ -42,7 +41,7 @@ const AllPage = ({ data }) => (
           </QuoteLink>
         )
       })}
-    </Flex>
+    </div>
   </Layout>
 )
 
