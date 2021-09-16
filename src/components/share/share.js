@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'rebass/styled-components'
+import { Link } from 'gatsby'
 
 const share = item => {
   const title = item.title
