@@ -49,7 +49,7 @@ const RandomPage = ({ data }) => {
 
   return (
     <Layout>
-      <Flex className="m-auto flex flex-col items-center">
+      <Flex className="pt-8 m-auto flex flex-col items-center">
         <QuoteLink to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>

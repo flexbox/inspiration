@@ -26,7 +26,7 @@ export const query = graphql`
 
 const AllPage = ({ data }) => (
   <Layout>
-    <Flex className="m-auto flex flex-col items-center">
+    <Flex className="pt-8 m-auto flex flex-col items-center">
       {data.allContentfulQuote.nodes.map(item => {
         return (
           <QuoteLink
