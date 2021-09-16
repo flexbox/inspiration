@@ -1,6 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
-import { Flex, Heading, Text } from 'rebass/styled-components'
 import { Link } from 'gatsby'
 
 //const contributeEmail =
@@ -9,14 +7,14 @@ import { Link } from 'gatsby'
 //const frameLink = 'https://displate.com/flexbox/displates'
 
 const Sidebar = () => (
-  <Flex className="m-auto content-center justify-content-center sm:m-0 p-8 pt-16 w-64 h-screen bg-gray-100">
-    <Heading
+  <div className="m-auto content-center justify-content-center sm:m-0 p-8 pt-16 w-64 h-screen bg-gray-100">
+    <div
       className="font-vidaloka flex flex-col text-gray-500 text-2xl font-vida"
       mb={3}
     >
       Inspiration
-    </Heading>
-    <Text
+    </div>
+    <div
       className="flex flex-col text-gray-500 mt-6 mb-12 leading-7"
       mb={4}
       as="p"
@@ -26,29 +24,29 @@ const Sidebar = () => (
       }}
     >
       Curated quotes from tech conferences for entrepreneurs
-    </Text>
+    </div>
 
-    <PageLink
+    <Link
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/"
       activeClassName="text-black"
     >
       Last Quote
-    </PageLink>
-    <PageLink
+    </Link>
+    <Link
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
       to="/random"
       activeClassName="text-black"
     >
       Random
-    </PageLink>
-    <PageLink
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+    </Link>
+    <Link
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4"
       to="/all"
       activeClassName="text-black"
     >
       All
-    </PageLink>
+    </Link>
     {/* <Button
       class="flex flex-col mt-2 mb-4 bg-gray-300 text-gray-500 hover:text-black font-bold py-2 px-4 rounded w-full"
       onClick={() => window.open(contributeEmail, '_blank')}
@@ -61,19 +59,7 @@ const Sidebar = () => (
     >
       Buy a frame
     </Button> */}
-  </Flex>
+  </div>
 )
-
-const PageLink = styled(Link)`
-  /*  */
-  display: flex;
-  flex-direction: columm;
-  text-decoration: none;
-  color: ${props => props.theme.colors.grayLight};
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  position: relative;
-  font-weight: bold;
-`
 
 export default Sidebar
