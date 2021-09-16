@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import { Flex } from 'rebass/styled-components'
 import Layout from 'components/layout'
 import Share from '../components/share'
 import QuoteItem from 'components/quote/quoteItem'
@@ -37,14 +36,14 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <Flex className="pt-8 m-auto flex flex-col items-center">
+      <div id="flex" className="pt-8 m-auto flex flex-col items-center">
         <QuoteLink className="m-auto justify-center" to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>
-      </Flex>
-      <Flex className="flex justify-center">
+      </div>
+      <div id="flex" className="flex justify-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
-      </Flex>
+      </div>
     </Layout>
   )
 }
