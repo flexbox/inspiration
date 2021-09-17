@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+const activeStyles = {
+  color: 'black',
+}
+
 const Sidebar = () => (
   <div className="m-auto content-center justify-content-center sm:m-0 p-8 pt-16 w-64 h-screen bg-gray-100">
     <div className="font-vidaloka flex flex-col text-gray-500 text-2xl font-vida">
@@ -13,21 +17,21 @@ const Sidebar = () => (
     <Link
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-black"
       to="/"
-      activeClassName="text-black"
+      activeStyle={activeStyles}
     >
       Last Quote
     </Link>
     <Link
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-black"
-      to="/random"
-      activeClassName="text-black"
+      to="/random/"
+      activeStyle={activeStyles}
     >
       Random
     </Link>
     <Link
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-black"
-      to="/all"
-      activeClassName="text-black"
+      to="/all/"
+      activeStyle={activeStyles}
     >
       All
     </Link>
