@@ -11,21 +11,21 @@ const Sidebar = () => (
     </div>
 
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-black"
       to="/"
       activeClassName="text-black"
     >
       Last Quote
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-black"
       to="/random"
       activeClassName="text-black"
     >
       Random
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-black"
       to="/all"
       activeClassName="text-black"
     >
