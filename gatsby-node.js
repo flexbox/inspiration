@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-dupe-else-if
 const path = require('path')
 const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin')
 
@@ -42,8 +43,9 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create pages
         result.data.allContentfulQuote.edges.forEach(edge => {
+          console.log('/${node.slug.slug}')
           createPage({
-            path: edge.node.slug.slug, // required
+            path: '/${node.slug.slug}', // required
             component: quoteTemplate,
             context: {
               id: edge.node.id,

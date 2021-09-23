@@ -205,7 +205,7 @@ const HeadWithQuery = props => (
         }
       }
     `}
-    render={data => (
+    asText={data => (
       <Location>
         {({ location }) => (
           <Head {...data.site.siteMetadata} {...props} location={location} />
