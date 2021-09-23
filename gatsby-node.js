@@ -13,6 +13,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
+  // eslint-disable-next-line no-undef
   return new Promise((resolve, reject) => {
     const quoteTemplate = path.resolve('src/pages/single.js')
     resolve(
@@ -43,9 +44,8 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create pages
         result.data.allContentfulQuote.edges.forEach(edge => {
-          console.log(`/${node.slug.slug}`)
           createPage({
-            path: '/${node.slug.slug}', // required
+            path: `/${node.slug.slug}`, // required
             component: quoteTemplate,
             context: {
               id: edge.node.id,

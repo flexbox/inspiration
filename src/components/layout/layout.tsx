@@ -1,11 +1,12 @@
+// eslint-disable-next-line no-dupe-else-if
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import Head from 'components/head'
-import Sidebar from 'components/Sidebar'
+import Head from '../head/head'
+import Sidebar from '../Sidebar'
 import styled, { ThemeProvider } from 'styled-components'
 import { Box } from 'rebass/styled-components'
-import GlobalStyle from 'global.css.js'
+import GlobalStyle from '../../global.css'
 import theme from '../../themes/theme'
 
 const Layout = ({ children }) => (
