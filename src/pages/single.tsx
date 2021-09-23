@@ -4,8 +4,9 @@ import Layout from 'components/layout'
 import Share from '../components/share'
 import QuoteItem from '../components/quoteItem'
 
-class singleQuote extends Component {
-  astext() {
+function singleQuote (props) {
+   
+  render() {
     const { author, title, twitterName } = this.props.pageContext
     const pageUrl = this.props.location.href
 

@@ -42,7 +42,7 @@ const LayoutWithQuery = props => (
         }
       }
     `}
-    asText={data => <Layout data={data} {...props} />}
+    render={data => <Layout data={data} {...props} />}
   />
 )
 

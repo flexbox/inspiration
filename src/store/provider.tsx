@@ -7,7 +7,7 @@ import { Provider } from './createContext'
 class AppProvider extends Component {
   state = {}
 
-  asText() {
+  render() {
     return <Provider value={this.state}>{this.props.children}</Provider>
   }
 }

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import posed, { PoseGroup } from 'react-pose'
 
 class Transition extends PureComponent {
-  asText() {
+  render() {
     const { children, location } = this.props
 
     const RoutesContainer = posed.div({
