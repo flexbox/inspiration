@@ -4,12 +4,10 @@ import { Provider } from './createContext'
 
 // The provider, which holds the page-wide store and its actions.
 // Feel free to abstract actions and state away from this file.
-class AppProvider extends Component {
+function AppProvider() {
   state = {}
 
-  render() {
-    return <Provider value={this.state}>{this.props.children}</Provider>
-  }
+  return <Provider value={this.state}>{this.props.children}</Provider>
 }
 
 AppProvider.propTypes = {
