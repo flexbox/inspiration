@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import Layout from '../components/layout/layout'
+import Layout from '../components/layout'
 import Share from '../components/share'
 import QuoteItem from '../components/quoteItem'
 
-function singleQuote() {
-  // eslint-disable-next-line no-undef
+function singleQuote(props) {
   const { author, title, twitterName } = props.pageContext
-  // eslint-disable-next-line no-undef
   const pageUrl = props.location.href
 
   return (

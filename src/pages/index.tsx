@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from 'components/layout'
+import Layout from '../components/layout'
 import Share from '../components/share'
 import QuoteItem from '../components/quoteItem'
-import { QuoteLink } from '../components/quote/quoteLink'
+import { QuoteLink } from '../components/quoteLink'
 
 export const query = graphql`
   query HomepageQuery {

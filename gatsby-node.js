@@ -1,37 +1,24 @@
-// eslint-disable-next-line no-dupe-else-if
 const path = require('path')
-const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin')
-
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
-      plugins: [new DirectoryNamedWebpackPlugin()],
-    },
-  })
-}
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   // eslint-disable-next-line no-undef
   return new Promise((resolve, reject) => {
-    const quoteTemplate = path.resolve('src/pages/single.js')
+    const quoteTemplate = path.resolve('src/pages/single.tsx')
     resolve(
       graphql(
         `
           {
             allContentfulQuote {
-              edges {
-                node {
-                  id
-                  author
-                  twitter_name
-                  title {
-                    title
-                  }
-                  slug {
-                    slug
-                  }
+              nodes {
+                id
+                author
+                twitter_name
+                title {
+                  title
+                }
+                slug {
+                  slug
                 }
               }
             }
@@ -43,15 +30,15 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // Create pages
-        result.data.allContentfulQuote.edges.forEach(edge => {
+        result.data.allContentfulQuote.nodes.forEach(node => {
           createPage({
             path: `/${node.slug.slug}`, // required
             component: quoteTemplate,
             context: {
-              id: edge.node.id,
-              author: edge.node.author,
-              twitterName: edge.node.twitter_name,
-              title: edge.node.title.title,
+              id: node.id,
+              author: node.author,
+              twitterName: node.twitter_name,
+              title: node.title.title,
             },
           })
         })
