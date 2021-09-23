@@ -7,7 +7,7 @@ import { Provider } from './createContext'
 function AppProvider() {
   state = {}
 
-  return <Provider value={this.state}>{this.props.children}</Provider>
+  return <Provider value={state}>{props.children}</Provider>
 }
 
 AppProvider.propTypes = {
