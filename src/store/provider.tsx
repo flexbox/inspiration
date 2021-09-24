@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { Provider } from './createContext'
 
 // The provider, which holds the page-wide store and its actions.
@@ -8,10 +7,6 @@ function AppProvider() {
   state = {}
 
   return <Provider value={state}>{props.children}</Provider>
-}
-
-AppProvider.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default AppProvider

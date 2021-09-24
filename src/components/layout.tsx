@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import Head from './head'
 import Sidebar from './Sidebar'
@@ -25,11 +24,6 @@ const Layout = ({ children }) => (
     </ThemeProvider>
   </>
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  data: PropTypes.object.isRequired,
-}
 
 const LayoutWithQuery = props => (
   <StaticQuery
