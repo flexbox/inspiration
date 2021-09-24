@@ -1,10 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from 'components/layout'
+import Layout from '../components/layout'
 import Share from '../components/share'
 import QuoteItem from '../components/quoteItem'
-import { QuoteLink } from '../components/quote/quoteLink'
+import { Link } from 'gatsby'
 
 export const query = graphql`
   query randomQuery {
@@ -49,19 +48,15 @@ const RandomPage = ({ data }) => {
   return (
     <Layout>
       <div className="pt-8 m-auto flex flex-col items-center">
-        <QuoteLink to={pageUrl}>
+        <Link to={pageUrl}>
           <QuoteItem title={title} author={author} />
-        </QuoteLink>
+        </Link>
       </div>
       <div className="m-auto flex flex-col items-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />
       </div>
     </Layout>
   )
-}
-
-RandomPage.propTypes = {
-  data: PropTypes.object.isRequired,
 }
 
 export default RandomPage

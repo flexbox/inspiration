@@ -1,9 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { Location } from '@reach/router'
-import schemaGenerator from 'helpers/schemaGenerator'
+import schemaGenerator from '../helpers/schemaGenerator'
 
 const Head = ({
   siteTitle,
@@ -172,20 +171,6 @@ const Head = ({
     </script>
   </Helmet>
 )
-
-Head.propTypes = {
-  siteTitle: PropTypes.string,
-  siteTitleShort: PropTypes.string,
-  siteDescription: PropTypes.string,
-  siteUrl: PropTypes.string,
-  themeColor: PropTypes.string,
-  social: PropTypes.objectOf(PropTypes.string),
-  imageUrl: PropTypes.string,
-  canonical: PropTypes.string,
-  pageTitle: PropTypes.string,
-  pageTitleFull: PropTypes.string,
-  location: PropTypes.object.isRequired,
-}
 
 const HeadWithQuery = props => (
   <StaticQuery
