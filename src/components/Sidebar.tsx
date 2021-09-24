@@ -6,7 +6,7 @@ const activeStyles = {
 }
 
 const Sidebar = () => (
-  <div className="m-auto content-center justify-content-center sm:m-0 p-8 pt-16 w-64 h-screen bg-gray-100">
+  <div className="m-auto content-center justify-content-center md:m-0 md:w-full lg:w-64 p-8 pt-16 h-screen bg-gray-100">
     <div className="font-vidaloka flex flex-col text-gray-500 text-2xl font-vida">
       Inspiration
     </div>

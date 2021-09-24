@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <div className="pt-8 m-auto flex flex-col items-center">
+      <div className="pt-8 m-auto flex flex-col items-center bg-gray-100">
         <QuoteLink className="m-auto justify-center" to={pageUrl}>
           <QuoteItem title={title} author={author} />
         </QuoteLink>

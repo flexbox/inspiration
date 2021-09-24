@@ -24,7 +24,7 @@ export const query = graphql`
 
 const AllPage = ({ data }) => (
   <Layout>
-    <div className="overflow-y-scroll h-screen pt-8 m-auto flex flex-col items-center">
+    <div className="overflow-y-scroll h-screen pt-8 m-auto flex flex-col items-center bg-gray-100">
       {data.allContentfulQuote.nodes.map(item => {
         return (
           <QuoteLink

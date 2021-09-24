@@ -13,7 +13,7 @@ const Layout = ({ children }) => (
       <>
         <Head />
         <GlobalStyle />
-        <Graaaadient className="w-full border-t-3 border-solid" />
+        <Graaaadient className="w-full border-t-3 border-solid bg-gray-100" />
         <Wrapper className="flex">
           <Sidebar />
           <Content className="overflow-auto bg-gray-100 w-full" p={4}>
