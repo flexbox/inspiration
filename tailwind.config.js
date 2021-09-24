@@ -1,10 +1,10 @@
 module.exports = {
-  purge: ['./src/**/*.js'],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        vidaloka: "'Vidaloka',serif",
+        vidaloka: 'Vidaloka, serif',
       },
     },
   },
