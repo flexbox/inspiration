@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Share from '../components/share'
 import QuoteItem from '../components/quoteItem'
-import { QuoteLink } from '../components/quoteLink'
+import { Link } from 'gatsby'
 
 export const query = graphql`
   query randomQuery {
@@ -48,9 +48,9 @@ const RandomPage = ({ data }) => {
   return (
     <Layout>
       <div className="pt-8 m-auto flex flex-col items-center">
-        <QuoteLink to={pageUrl}>
+        <Link to={pageUrl}>
           <QuoteItem title={title} author={author} />
-        </QuoteLink>
+        </Link>
       </div>
       <div className="m-auto flex flex-col items-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />

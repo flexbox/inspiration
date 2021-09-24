@@ -1,9 +1,8 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import Share from '../components/share'
 import QuoteItem from '../components/quoteItem'
-import { QuoteLink } from '../components/quoteLink'
 
 export const query = graphql`
   query HomepageQuery {
@@ -36,9 +35,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <div className="pt-8 m-auto flex flex-col items-center bg-gray-100">
-        <QuoteLink className="m-auto justify-center" to={pageUrl}>
+        <Link className="m-auto justify-center" to={pageUrl}>
           <QuoteItem title={title} author={author} />
-        </QuoteLink>
+        </Link>
       </div>
       <div className="flex justify-center">
         <Share title={title} twitterName={twitterName} pageUrl={shareUrl} />

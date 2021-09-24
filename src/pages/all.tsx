@@ -1,9 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import QuoteItem from '../components/quoteItem'
-import { QuoteLink } from '../components/quoteLink'
 
 export const query = graphql`
   query allQuery {
@@ -27,7 +26,7 @@ const AllPage = ({ data }) => (
     <div className="overflow-y-scroll h-screen pt-8 m-auto flex flex-col items-center bg-gray-100">
       {data.allContentfulQuote.nodes.map(item => {
         return (
-          <QuoteLink
+          <Link
             to={`/${item.slug.slug}`}
             key={item.id}
             style={{ marginBottom: 300 }}
@@ -37,7 +36,7 @@ const AllPage = ({ data }) => (
               title={item.title.title}
               author={item.author}
             />
-          </QuoteLink>
+          </Link>
         )
       })}
     </div>

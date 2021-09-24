@@ -4,7 +4,6 @@ import Head from './head'
 import Sidebar from './Sidebar'
 import styled, { ThemeProvider } from 'styled-components'
 import { Box } from 'rebass/styled-components'
-import GlobalStyle from '../global.css'
 import theme from '../themes/theme'
 
 const Layout = ({ children }) => (
@@ -12,7 +11,6 @@ const Layout = ({ children }) => (
     <ThemeProvider className="bg-gray-100" theme={theme}>
       <>
         <Head />
-        <GlobalStyle />
         <Graaaadient className="w-full border-t-3 border-solid bg-gray-100" />
         <Wrapper className="flex">
           <Sidebar />
