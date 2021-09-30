@@ -6,11 +6,23 @@
   "commit": false,
   "contributors": [
     {
+      "login": "flexbox",
+      "name": "David Leuliette",
+      "avatar_url": "https://avatars.githubusercontent.com/u/360936?v=4",
+      "profile": "https://davidl.fr",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+  },
+  {
       "login": "MatthysDucrocq",
       "name": "Matthys Ducrocq",
       "avatar_url": "https://avatars.githubusercontent.com/u/81434852?v=4",
       "profile": "https://github.com/MatthysDucrocq",
       "contributions": [
+        "test",        
         "code"
       ]
     }
