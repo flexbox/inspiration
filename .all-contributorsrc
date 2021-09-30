@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "flexbox",
+      "name": "David Leuliette",
+      "avatar_url": "https://avatars.githubusercontent.com/u/360936?v=4",
+      "profile": "https://davidl.fr",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "inspiration",
+  "projectOwner": "flexbox",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
